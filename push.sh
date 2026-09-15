@@ -8,4 +8,4 @@ git add -A
 git -c user.name="Akshat Agrawal" -c user.email="akshatxagrawal@gmail.com" \
     commit -q -m "$MSG" || { echo "nothing new to commit"; exit 0; }
 git push -q origin main
-echo "pushed -> https://github.com/5upernova4/agentic-customer-360"
+echo "pushed -> https://github.com/5upernova4/NLP-Prepathon-Customer360"

@@ -109,12 +109,23 @@ def silence():
 
         hg, _ = gaps(hist)
         lg, lt = gaps(live)
-        trailing = (end - lt[-1]).total_seconds() / 86400 if lt else 0
+        # the stream can run slightly past simulated_end, so clamp at zero
+        trailing = max(0.0, (end - lt[-1]).total_seconds() / 86400) if lt else 0.0
         print(f"\n{s}")
         print(f"   history : max gap {max(hg):.1f}d, p95 {sorted(hg)[int(len(hg)*.95)]:.1f}d, mean {st.mean(hg):.2f}d")
         print(f"   live    : max gap {max(lg):.1f}d")
+        print(f"   last card/web activity: {lt[-1].date()}")
         print(f"   trailing silence to simulated_end: {trailing:.0f} days "
               f"({trailing / max(hg):.0f}x the historical max gap)")
+        # what still arrives during that silence matters: if money keeps moving
+        # while the human stops showing up, the account has become a pipe
+        still = [e for e in live if T(e["event_time"]) > lt[-1]]
+        if trailing > 5 and still:
+            print(f"   ...but {len(still)} non-engagement events still arrive in that window:")
+            for e in still:
+                p = e["payload"]
+                print(f"        {e['event_time'][:10]} {e['source_system']:20s} "
+                      f"{p.get('transaction_type') or e['event_type']:20s} {p.get('amount')}")
 
 
 # ---------------------------------------------------------------- experiment 4
