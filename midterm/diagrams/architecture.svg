@@ -1,0 +1,413 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1720 1180" width="1720" height="1180" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="sync" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto"><polygon points="0 0, 9 3.5, 0 7" fill="#3f4a56"/></marker>
+  <marker id="async" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto"><polygon points="0 0, 9 3.5, 0 7" fill="#8a6d3b"/></marker>
+  <marker id="mem" markerWidth="8" markerHeight="6" refX="7.5" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#5b7c8d"/></marker>
+  <marker id="stop" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto"><polygon points="0 0, 9 3.5, 0 7" fill="#a03a3a"/></marker>
+  <style>
+    .t   { font-size:12.5px; fill:#1e2429; }
+    .tb  { font-size:13px; fill:#12181d; font-weight:600; }
+    .ts  { font-size:10.5px; fill:#55606b; }
+    .tt  { font-size:9.8px; fill:#6b7681; font-style:italic; }
+    .lbl { font-size:11px; fill:#4a5560; }
+    .hdr { font-size:11px; fill:#8c97a2; letter-spacing:1.4px; font-weight:600; }
+    .box { fill:#ffffff; stroke:#c3ccd4; stroke-width:1.2; }
+    .src { fill:#f4f6f8; stroke:#c3ccd4; stroke-width:1.1; }
+    .rfx { fill:#eef4ef; stroke:#9dbaa6; stroke-width:1.2; }
+    .agt { fill:#eef1f7; stroke:#a3b0cc; stroke-width:1.2; }
+    .mm  { fill:#f2f7f9; stroke:#8fb0bf; stroke-width:1.3; }
+    .core{ fill:#e7f0f4; stroke:#4d7f97; stroke-width:2; }
+    .gr  { fill:#fbeeee; stroke:#c08585; stroke-width:1.4; }
+    .hl  { fill:#fdf6e8; stroke:#c9a85f; stroke-width:1.4; }
+    .out { fill:#f6f4f8; stroke:#a99ab5; stroke-width:1.2; }
+    .band{ fill:none; stroke:#dde3e8; stroke-width:1; stroke-dasharray:3 4; }
+    .ln  { stroke:#3f4a56; stroke-width:1.5; fill:none; marker-end:url(#sync); }
+    .lnA { stroke:#8a6d3b; stroke-width:1.5; fill:none; marker-end:url(#async); stroke-dasharray:6 4; }
+    .lnM { stroke:#5b7c8d; stroke-width:1.2; fill:none; marker-end:url(#mem); stroke-dasharray:2 3; }
+    .lnS { stroke:#a03a3a; stroke-width:2; fill:none; marker-end:url(#stop); }
+  </style>
+</defs>
+
+<rect width="1720" height="1180" fill="#fcfdfe"/>
+
+<text x="36" y="40" font-size="20" font-weight="600" fill="#12181d">Agentic Customer 360 — Proactive Intervention Desk</text>
+<text x="36" y="60" class="ts">Preliminary architecture, mid-term submission. Solid arrows = synchronous (per event). Dashed gold = asynchronous / scheduled. Dotted blue = memory read/write.</text>
+
+<!-- ============ LEGEND ============ -->
+<g transform="translate(1246,26)">
+  <rect x="0" y="0" width="440" height="72" rx="4" fill="#ffffff" stroke="#dde3e8"/>
+  <line x1="14" y1="20" x2="52" y2="20" class="ln"/>       <text x="60" y="24" class="ts">sync fast path</text>
+  <line x1="14" y1="40" x2="52" y2="40" class="lnA"/>      <text x="60" y="44" class="ts">async / scheduled</text>
+  <line x1="180" y1="20" x2="218" y2="20" class="lnM"/>    <text x="226" y="24" class="ts">memory read / write</text>
+  <line x1="180" y1="40" x2="218" y2="40" class="lnS"/>    <text x="226" y="44" class="ts">guardrail hard-stop (bypasses pipeline)</text>
+  <text x="14" y="62" class="ts">Trigger tags:  [E] event-based   [T] time-based   [A] agent-dependent</text>
+</g>
+
+<!-- ============ COL 1 : SOURCES ============ -->
+<text x="36" y="104" class="hdr">EVENT SOURCES</text>
+<rect x="30" y="112" width="196" height="386" class="band" rx="6"/>
+<g>
+  <rect x="42" y="124" width="172" height="34" rx="4" class="src"/><text x="52" y="140" class="t">card_payments</text><text x="52" y="152" class="tt">purchase · refund · decline</text>
+  <rect x="42" y="166" width="172" height="34" rx="4" class="src"/><text x="52" y="182" class="t">instant_payments / ach_wire</text><text x="52" y="194" class="tt">in/outbound transfer</text>
+  <rect x="42" y="208" width="172" height="34" rx="4" class="src"/><text x="52" y="224" class="t">core_banking_ledger</text><text x="52" y="236" class="tt">deposit · withdrawal · SI · fee</text>
+  <rect x="42" y="250" width="172" height="34" rx="4" class="src"/><text x="52" y="266" class="t">trading_brokerage</text><text x="52" y="278" class="tt">buy · sell · dividend</text>
+  <rect x="42" y="292" width="172" height="34" rx="4" class="src"/><text x="52" y="308" class="t">loan_kyc</text><text x="52" y="320" class="tt">kyc · address · dependents</text>
+  <rect x="42" y="334" width="172" height="34" rx="4" class="src"/><text x="52" y="350" class="t">web_app_events</text><text x="52" y="362" class="tt">login · search · feature_used</text>
+  <rect x="42" y="376" width="172" height="34" rx="4" class="src"/><text x="52" y="392" class="t">support_logs</text><text x="52" y="404" class="tt">ticket · call_transcript</text>
+  <rect x="42" y="418" width="172" height="34" rx="4" class="src"/><text x="52" y="434" class="t">social_signal_consented</text><text x="52" y="446" class="tt">life_event_mention</text>
+  <rect x="42" y="460" width="172" height="30" rx="4" fill="#fdf6e8" stroke="#c9a85f" stroke-width="1.1"/>
+  <text x="52" y="474" class="t">entities.json</text><text x="52" y="485" class="tt">profile · accounts · tier</text>
+</g>
+
+<!-- ============ COL 2 : INGEST + REFLEX ============ -->
+<text x="262" y="104" class="hdr">INGESTION + TIER-0 REFLEX</text>
+<text x="262" y="117" class="tt">deterministic, runs on every event</text>
+<rect x="256" y="124" width="330" height="548" class="band" rx="6"/>
+
+<rect x="270" y="124" width="302" height="56" rx="4" class="box"/>
+<text x="280" y="142" class="tb">Normalise &amp; tokenise</text>
+<text x="280" y="157" class="ts">schema check · PII vault swap (name, acct →</text>
+<text x="280" y="170" class="ts">surrogate) · merchant → semantic class</text>
+
+<rect x="270" y="188" width="302" height="54" rx="4" class="box"/>
+<text x="280" y="206" class="tb">Cross-source de-duplication</text>
+<text x="280" y="221" class="ts">fingerprint (account, amount, ±5 s) collapses the</text>
+<text x="280" y="234" class="ts">same money movement reported by two systems</text>
+
+<rect x="270" y="250" width="302" height="54" rx="4" class="box"/>
+<text x="280" y="268" class="tb">Event-time buffer + watermark</text>
+<text x="280" y="283" class="ts">order by event_time, not arrival · allowed</text>
+<text x="280" y="296" class="ts">lateness 72 h · late arrival → revision, not drop</text>
+
+<rect x="270" y="312" width="302" height="38" rx="4" fill="#eef4ef" stroke="#6f9b81" stroke-width="1.6"/>
+<text x="280" y="329" class="tb">Immutable event log</text>
+<text x="280" y="343" class="ts">append-only, replayable, the system's only source of truth</text>
+
+<rect x="270" y="360" width="302" height="86" rx="4" class="rfx"/>
+<text x="280" y="378" class="tb">Incremental feature store  [E]</text>
+<text x="280" y="393" class="ts">rolling login freq · per-account balance · MCC</text>
+<text x="280" y="406" class="ts">histogram · counterparty set · standing-instruction</text>
+<text x="280" y="419" class="ts">set · expected-arrival table (amount, period)</text>
+<text x="280" y="436" class="tt">updated on every event; no LLM in this path</text>
+
+<rect x="270" y="454" width="302" height="96" rx="4" class="rfx"/>
+<text x="280" y="472" class="tb">Cheap detectors  [E]</text>
+<text x="280" y="487" class="ts">novel-MCC · cadence break · income shortfall</text>
+<text x="280" y="500" class="ts">· sweep pair (deposit → near-equal outflow)</text>
+<text x="280" y="513" class="ts">· balance drawdown · SI set-diff · velocity</text>
+<text x="280" y="530" class="tt">emit a Signal only when a test actually fires</text>
+<text x="280" y="543" class="tt">→ ~8% of events wake the expensive tier</text>
+
+<rect x="270" y="558" width="302" height="46" rx="4" class="gr"/>
+<text x="280" y="576" class="tb">Hard-stop guardrail scanner  [E]</text>
+<text x="280" y="591" class="ts">legal threat · self-harm · fraud pattern · sanctions</text>
+
+<rect x="270" y="612" width="302" height="46" rx="4" class="rfx"/>
+<text x="280" y="630" class="tb">Wake controller</text>
+<text x="280" y="645" class="ts">decides which specialists to wake, over which window</text>
+
+<!-- Scheduler (async) -->
+<text x="262" y="706" class="hdr">AMBIENT SCHEDULER</text>
+<rect x="256" y="714" width="330" height="128" class="band" rx="6"/>
+<rect x="270" y="726" width="302" height="104" rx="4" fill="#fdf6e8" stroke="#c9a85f" stroke-width="1.4"/>
+<text x="280" y="744" class="tb">Expectation checker  [T]  — daily tick</text>
+<text x="280" y="760" class="ts">compares the expected-arrival table against what</text>
+<text x="280" y="773" class="ts">actually landed. When an expected salary, login</text>
+<text x="280" y="786" class="ts">cadence or standing instruction lapses, it writes a</text>
+<text x="280" y="801" class="tb" fill="#7a5c28">synthetic expectation_breach event</text>
+<text x="280" y="816" class="ts">back into the log, so absence becomes a first-class</text>
+<text x="280" y="829" class="ts">event the same downstream machinery can consume.</text>
+
+<!-- ============ COL 3 : MEMORY ============ -->
+<text x="622" y="104" class="hdr">MEMORY</text>
+<rect x="616" y="112" width="290" height="730" class="band" rx="6"/>
+
+<rect x="630" y="124" width="262" height="60" rx="4" class="mm"/>
+<text x="640" y="142" class="tb">Working memory</text>
+<text x="640" y="157" class="ts">open case for this customer · window under</text>
+<text x="640" y="170" class="ts">review · what the swarm has said this pass</text>
+
+<rect x="630" y="196" width="262" height="212" rx="5" class="core"/>
+<text x="640" y="216" class="tb" font-size="14">Evidence Ledger</text>
+<text x="640" y="231" class="ts" font-style="italic">the shared state board, but append-only</text>
+<line x1="640" y1="238" x2="882" y2="238" stroke="#4d7f97" stroke-width="0.8"/>
+<text x="640" y="254" class="t">one row per assertion:</text>
+<text x="640" y="270" class="ts">hypothesis (the 14-value state enum)</text>
+<text x="640" y="284" class="ts">direction: supports | opposes</text>
+<text x="640" y="298" class="ts">weight: log-likelihood ratio</text>
+<text x="640" y="312" class="ts">observed_at (event time) / asserted_at (txn time)</text>
+<text x="640" y="326" class="ts">half_life_days → decay</text>
+<text x="640" y="340" class="ts">source_event_ids → citation</text>
+<text x="640" y="354" class="ts">agent · one-line rationale</text>
+<text x="640" y="368" class="ts">revoked_by (nullable) → retraction</text>
+<line x1="640" y1="376" x2="882" y2="376" stroke="#4d7f97" stroke-width="0.8"/>
+<text x="640" y="392" class="tb" font-size="11.5">posterior(h, T) = prior + Σ wᵢ · 2^(−Δt/hlᵢ)</text>
+<text x="640" y="403" class="tt">evaluated for any T → point-in-time answers</text>
+
+<rect x="630" y="420" width="262" height="74" rx="4" class="mm"/>
+<text x="640" y="438" class="tb">Episodic memory  (per customer)</text>
+<text x="640" y="453" class="ts">past interventions and their outcome · previous</text>
+<text x="640" y="466" class="ts">flags · every HITL approve / reject / modify</text>
+<text x="640" y="484" class="tt">keyed by customer_id; row-level isolation at the store</text>
+
+<rect x="630" y="506" width="262" height="88" rx="4" class="mm"/>
+<text x="640" y="524" class="tb">Semantic memory  (shared)</text>
+<text x="640" y="539" class="ts">offer eligibility rules · compliance policy ·</text>
+<text x="640" y="552" class="ts">cohort baselines · merchant → class lexicon</text>
+<text x="640" y="570" class="ts">live vector index: upsert on write,</text>
+<text x="640" y="583" class="ts">tombstone on supersede, no full re-index</text>
+
+<rect x="630" y="606" width="262" height="72" rx="4" fill="#f4f6f8" stroke="#9aa5b0" stroke-width="1.2"/>
+<text x="640" y="624" class="tb">Access broker</text>
+<text x="640" y="639" class="ts">every agent receives a scoped view object built</text>
+<text x="640" y="652" class="ts">from its declared capability. An agent without</text>
+<text x="640" y="665" class="ts">brokerage scope has no method that can read it.</text>
+
+<rect x="630" y="690" width="262" height="58" rx="4" fill="#f4f6f8" stroke="#9aa5b0" stroke-width="1.2"/>
+<text x="640" y="708" class="tb">Life-phase slot</text>
+<text x="640" y="723" class="ts">the current inferred state, carried forward and</text>
+<text x="640" y="736" class="ts">re-weighted; read by every downstream agent</text>
+
+<rect x="630" y="760" width="262" height="70" rx="4" class="out"/>
+<text x="640" y="778" class="tb">Trace store</text>
+<text x="640" y="793" class="ts">OTel-style spans: agent run, tool call, retrieval,</text>
+<text x="640" y="806" class="ts">handoff · full prompt and response per decision</text>
+<text x="640" y="823" class="tt">every ledger row links to the span that produced it</text>
+
+<!-- ============ COL 4 : AGENTS ============ -->
+<text x="942" y="104" class="hdr">SPECIALIST AGENTS</text>
+<text x="942" y="117" class="tt">Tier-1, woken on demand</text>
+<rect x="936" y="124" width="322" height="718" class="band" rx="6"/>
+
+<text x="948" y="132" class="lbl" font-weight="600">Swarm — parallel, independent  [E]</text>
+<rect x="948" y="140" width="298" height="52" rx="4" class="agt"/>
+<text x="958" y="157" class="tb">Usage / Engagement</text>
+<text x="958" y="171" class="ts">tools: window agg over web_app_events;</text>
+<text x="958" y="184" class="ts">cadence model. reads: feature store, episodic</text>
+
+<rect x="948" y="198" width="298" height="52" rx="4" class="agt"/>
+<text x="958" y="215" class="tb">Transaction / Billing</text>
+<text x="958" y="229" class="ts">tools: baseline compare, counterparty classifier;</text>
+<text x="958" y="242" class="ts">reads: ledger + payments slice, cohort baselines</text>
+
+<rect x="948" y="256" width="298" height="52" rx="4" class="agt"/>
+<text x="958" y="273" class="tb">Support / Sentiment</text>
+<text x="958" y="287" class="ts">tools: sentiment + intent on raw_text, ticket</text>
+<text x="958" y="300" class="ts">history retrieval. reads: support_logs only</text>
+
+<rect x="948" y="314" width="298" height="52" rx="4" class="agt"/>
+<text x="958" y="331" class="tb">KYC / Compliance</text>
+<text x="958" y="345" class="ts">tools: KYC diff, sanctions lookup, rules engine;</text>
+<text x="958" y="358" class="ts">reads: loan_kyc, policy index</text>
+
+<text x="948" y="390" class="lbl" font-weight="600">Correlation — fires on ≥2 swarm assertions  [A]</text>
+<rect x="948" y="398" width="298" height="56" rx="4" fill="#e4e9f3" stroke="#7f91ba" stroke-width="1.5"/>
+<text x="958" y="416" class="tb">Life-Event Inference</text>
+<text x="958" y="430" class="ts">joins swarm assertions inside one time window;</text>
+<text x="958" y="443" class="ts">this is where weak signals become a strong one</text>
+
+<text x="948" y="478" class="lbl" font-weight="600">Synthesis — handoff, scoped package  [A]</text>
+<rect x="948" y="486" width="298" height="60" rx="4" fill="#e4e9f3" stroke="#7f91ba" stroke-width="1.5"/>
+<text x="958" y="504" class="tb">Synthesis / Arbiter</text>
+<text x="958" y="518" class="ts">recomputes the posterior, ranks hypotheses,</text>
+<text x="958" y="531" class="ts">receives structured assertions only — never</text>
+<text x="958" y="544" class="ts">another agent's reasoning trace</text>
+
+<rect x="948" y="558" width="298" height="70" rx="4" fill="#f1ecf5" stroke="#9b86ae" stroke-width="1.4"/>
+<text x="958" y="576" class="tb">Debate pair  [A] — gated</text>
+<text x="958" y="591" class="ts">wakes only when the top two hypotheses sit</text>
+<text x="958" y="604" class="ts">within a margin. Resolution is a written rule;</text>
+<text x="958" y="617" class="ts">if it cannot resolve, confidence is capped and</text>
+<text x="958" y="628" class="tt">the case is sent to a human on ambiguity alone</text>
+
+<rect x="948" y="642" width="298" height="52" rx="4" class="agt"/>
+<text x="958" y="659" class="tb">Offer / Eligibility  [A]</text>
+<text x="958" y="673" class="ts">tools: policy RAG over semantic memory, rules</text>
+<text x="958" y="686" class="ts">engine, cost estimator</text>
+
+<rect x="948" y="702" width="298" height="52" rx="4" class="agt"/>
+<text x="958" y="719" class="tb">Retention / Action  [A]</text>
+<text x="958" y="733" class="ts">drafts the intervention; grounds every claim in</text>
+<text x="958" y="746" class="ts">event ids pulled from the ledger</text>
+
+<rect x="948" y="762" width="298" height="64" rx="4" fill="#f1ecf5" stroke="#9b86ae" stroke-width="1.4"/>
+<text x="958" y="780" class="tb">Critique / Compliance refiner  [A]</text>
+<text x="958" y="794" class="ts">round-robin passes for grounding, tone, policy.</text>
+<text x="958" y="807" class="ts">Sends the draft back once; a second failure</text>
+<text x="958" y="820" class="ts">escalates rather than looping.</text>
+
+<!-- ============ COL 5 : GUARDRAIL + HITL ============ -->
+<text x="1294" y="104" class="hdr">DECISION GATE</text>
+<rect x="1288" y="112" width="300" height="440" class="band" rx="6"/>
+
+<rect x="1300" y="124" width="276" height="116" rx="4" class="gr"/>
+<text x="1310" y="142" class="tb">Policy matrix  (deterministic)</text>
+<text x="1310" y="157" class="ts">an allow / deny table over</text>
+<text x="1310" y="170" class="tb" font-size="11.5">inferred_state × action</text>
+<text x="1310" y="186" class="ts">checked in code before an action is ever</text>
+<text x="1310" y="199" class="ts">proposed, not asked of the model.</text>
+<text x="1310" y="216" class="ts" fill="#8a3b3b">e.g. medical_hardship → personalized_offer</text>
+<text x="1310" y="229" class="ts" fill="#8a3b3b">is denied outright. No prompt can argue past it.</text>
+
+<rect x="1300" y="248" width="276" height="66" rx="4" class="gr"/>
+<text x="1310" y="266" class="tb">Blast-radius limiter</text>
+<text x="1310" y="281" class="ts">tools are split draft / send. No agent holds a</text>
+<text x="1310" y="294" class="ts">send or credit tool. Cost ceiling by value tier.</text>
+<text x="1310" y="308" class="tt">exceeding the ceiling forces escalation</text>
+
+<rect x="1300" y="324" width="276" height="112" rx="4" class="hl"/>
+<text x="1310" y="342" class="tb">Human-in-the-loop desk</text>
+<text x="1310" y="357" class="ts">a real interrupt: the run parks until a person</text>
+<text x="1310" y="370" class="ts">approves, rejects or edits.</text>
+<text x="1310" y="386" class="ts">Reviewer sees the ranked evidence that moved</text>
+<text x="1310" y="399" class="ts">the posterior, each row citing its event ids,</text>
+<text x="1310" y="412" class="ts">and can ask "why this and not that?" — answered</text>
+<text x="1310" y="425" class="ts">from the ledger, not by re-prompting the model.</text>
+
+<rect x="1300" y="444" width="276" height="56" rx="4" class="hl"/>
+<text x="1310" y="462" class="tb">Approval log</text>
+<text x="1310" y="477" class="ts">records the decision and the exact evidence</text>
+<text x="1310" y="490" class="ts">snapshot shown at that moment</text>
+
+<text x="1294" y="580" class="hdr">OUTPUTS</text>
+<rect x="1288" y="588" width="300" height="254" class="band" rx="6"/>
+
+<rect x="1300" y="600" width="276" height="96" rx="4" class="out"/>
+<text x="1310" y="618" class="tb">inferred_events.json</text>
+<text x="1310" y="633" class="ts">the graded artifact, in the required schema:</text>
+<text x="1310" y="647" class="ts">as_of_time · inferred_state · confidence_band</text>
+<text x="1310" y="660" class="ts">· action · action_subtype · hitl_status · notes</text>
+<text x="1310" y="677" class="tt">written daily, on every band change, and again</text>
+<text x="1310" y="689" class="tt">as a revision when a late event moves the past</text>
+
+<rect x="1300" y="706" width="276" height="62" rx="4" class="out"/>
+<text x="1310" y="724" class="tb">Scoring harness</text>
+<text x="1310" y="739" class="ts">scores our output against a ground_truth.json:</text>
+<text x="1310" y="752" class="ts">state and action match, band timing, lead time,</text>
+<text x="1310" y="762" class="ts">and the red-herring false-positive checks</text>
+
+<rect x="1300" y="778" width="276" height="52" rx="4" class="out"/>
+<text x="1310" y="796" class="tb">Metrics</text>
+<text x="1310" y="811" class="ts">event→decision latency · band accuracy ·</text>
+<text x="1310" y="824" class="ts">HITL override rate · false positives per herring</text>
+
+<!-- ============ ARROWS ============ -->
+<!-- sources into normaliser -->
+<path d="M214 300 L262 300 L262 152 L268 152" class="ln"/>
+<path d="M214 475 L240 475 L240 152 L268 152" class="ln"/>
+
+<!-- ingest chain -->
+<path d="M421 180 L421 186" class="ln"/>
+<path d="M421 242 L421 248" class="ln"/>
+<path d="M421 304 L421 310" class="ln"/>
+<path d="M421 350 L421 358" class="ln"/>
+<path d="M421 446 L421 452" class="ln"/>
+<path d="M421 550 L421 556" class="ln"/>
+<path d="M421 604 L421 610" class="ln"/>
+
+<!-- scheduler loops synthetic events back into the log -->
+<path d="M270 778 L248 778 L248 331 L268 331" class="lnA"/>
+<text x="150" y="560" class="ts" fill="#8a6d3b" transform="rotate(-90 150 560)">synthetic expectation_breach</text>
+
+<!-- reflex -> memory (feature + ledger writes) -->
+<path d="M572 400 L604 400 L604 300 L626 300" class="lnM"/>
+<path d="M572 490 L626 490" class="lnM"/>
+
+<!-- wake controller -> swarm -->
+<path d="M572 634 L600 634 L600 166 L944 166" class="ln"/>
+<path d="M600 224 L944 224" class="ln"/>
+<path d="M600 282 L944 282" class="ln"/>
+<path d="M600 340 L944 340" class="ln"/>
+<text x="606" y="700" class="ts" fill="#3f4a56" transform="rotate(-90 606 700)">wake selected specialists  [E]</text>
+
+<!-- swarm writes assertions to ledger -->
+<path d="M944 180 L916 180 L916 250 L894 250" class="lnM"/>
+<path d="M944 238 L920 238 L920 258 L894 258" class="lnM"/>
+<path d="M944 296 L924 296 L924 268 L894 268" class="lnM"/>
+<path d="M944 352 L928 352 L928 278 L894 278" class="lnM"/>
+<text x="932" y="212" class="ts" fill="#5b7c8d" transform="rotate(-90 932 212)">assertions</text>
+
+<!-- swarm -> life event -->
+<path d="M1097 366 L1097 396" class="ln"/>
+<!-- life event -> synthesis -->
+<path d="M1097 454 L1097 484" class="ln"/>
+<!-- synthesis -> debate (gated) -->
+<path d="M1097 546 L1097 556" class="lnA"/>
+<!-- debate -> offer -->
+<path d="M1097 628 L1097 640" class="ln"/>
+<!-- offer -> action -->
+<path d="M1097 694 L1097 700" class="ln"/>
+<!-- action -> critique -->
+<path d="M1097 754 L1097 760" class="ln"/>
+
+<!-- ledger <-> synthesis -->
+<path d="M894 320 L920 320 L920 516 L944 516" class="lnM"/>
+<text x="934" y="470" class="ts" fill="#5b7c8d" transform="rotate(-90 934 470)">posterior read</text>
+
+<!-- critique -> policy matrix -->
+<path d="M1246 794 L1268 794 L1268 182 L1296 182" class="ln"/>
+<!-- policy -> blast radius -->
+<path d="M1438 240 L1438 246" class="ln"/>
+<!-- blast -> hitl -->
+<path d="M1438 314 L1438 322" class="ln"/>
+<!-- hitl -> approval log -->
+<path d="M1438 436 L1438 442" class="ln"/>
+<!-- hitl decision -> episodic memory (learning loop) -->
+<path d="M1300 486 L1282 486 L1282 838 L906 838 L906 494 L894 494" class="lnM"/>
+<text x="940" y="833" class="ts" fill="#5b7c8d">HITL outcome → episodic memory (this is how autonomy boundaries get tuned)</text>
+
+<!-- approval -> outputs -->
+<path d="M1438 500 L1438 596" class="ln"/>
+
+<!-- guardrail hard stop bypass -->
+<path d="M572 580 L610 580 L610 866 L1438 866 L1438 440" class="lnS"/>
+<text x="700" y="861" class="ts" fill="#a03a3a">hard stop bypasses every agent and lands directly on the human desk</text>
+
+<!-- late event revision loop -->
+<path d="M1578 648 L1606 648 L1606 276 L1580 276" class="lnA" stroke="#8a6d3b"/>
+<text x="1622" y="500" class="ts" fill="#8a6d3b" transform="rotate(-90 1622 500)">late event → recompute → revision row</text>
+
+<!-- ============ FOOTNOTE BAND ============ -->
+<rect x="30" y="872" width="1656" height="286" rx="6" fill="#ffffff" stroke="#dde3e8"/>
+<text x="48" y="898" class="hdr">WHAT EACH MECHANISM IS THERE FOR  —  every row below is a thing I found in the practice data, not a hypothetical</text>
+
+<line x1="48" y1="908" x2="1668" y2="908" stroke="#e4e9ee"/>
+<text x="48" y="930" class="tb">Observed in the data</text>
+<text x="620" y="930" class="tb">Which component handles it</text>
+<text x="1130" y="930" class="tb">Why the obvious design fails</text>
+<line x1="48" y1="938" x2="1668" y2="938" stroke="#e4e9ee"/>
+
+<text x="48" y="960" class="t">36 days of total silence, vs a 2-day historical max gap (sc. 03)</text>
+<text x="620" y="960" class="t">Expectation checker, daily tick [T]</text>
+<text x="1130" y="960" class="t">No event is ever emitted, so nothing event-driven can fire</text>
+
+<text x="48" y="982" class="t">Salary $3,800/14d stops, replaced by $1,400 benefits, then nothing</text>
+<text x="620" y="982" class="t">Expected-arrival table + income shortfall detector</text>
+<text x="1130" y="982" class="t">Reacting to arrivals cannot see a non-arrival</text>
+
+<text x="48" y="1004" class="t">$12,000 wire and $12,000 ledger withdrawal, 1 second apart</text>
+<text x="620" y="1004" class="t">Cross-source de-duplication</text>
+<text x="1130" y="1004" class="t">Naive summing double-counts the outflow</text>
+
+<text x="48" y="1026" class="t">$10,000 out of savings and $10,000 into checking, 1 second apart</text>
+<text x="620" y="1026" class="t">Sweep-pair detector → one drawdown, not two events</text>
+<text x="1130" y="1026" class="t">Reads as a $10k exfiltration and trips a fraud rule</text>
+
+<text x="48" y="1048" class="t">$600 electronics purchase explained the next day as a baby monitor</text>
+<text x="620" y="1048" class="t">Ledger revocation → posterior recomputed, revision emitted</text>
+<text x="1130" y="1048" class="t">A committed decision with no retraction path stays wrong</text>
+
+<text x="48" y="1070" class="t">A signal event arrives 48 h after the fact (Quest Diagnostics)</text>
+<text x="620" y="1070" class="t">Event-time watermark, 72 h allowed lateness</text>
+<text x="1130" y="1070" class="t">Processing-time ordering silently drops it</text>
+
+<text x="48" y="1092" class="t">Red herrings are the largest amounts; real signals are $85–$500</text>
+<text x="620" y="1092" class="t">Novel-MCC and counterparty class, not amount z-score</text>
+<text x="1130" y="1092" class="t">Top-5-by-amount alerting catches 1 of 3 signals in sc. 03</text>
+
+<text x="48" y="1114" class="t">Only ~8% of live events carry any signal at all</text>
+<text x="620" y="1114" class="t">Tier-0 reflex gates Tier-1; LLMs never see routine traffic</text>
+<text x="1130" y="1114" class="t">An LLM per event is 12× the cost and 12× the hallucination surface</text>
+
+<text x="48" y="1140" class="tt">Trigger coverage: [E] every ingest path and the swarm · [T] the daily expectation tick and the checkpoint writer · [A] life-event correlation, synthesis, debate, offer, action and critique.</text>
+</svg>

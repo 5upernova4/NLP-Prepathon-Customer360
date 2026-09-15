@@ -1,0 +1,32 @@
+# OS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env / secrets  -- never commit API keys
+.env
+.env.*
+!.env.example
+*.key
+secrets.*
+
+# Runtime output (regenerable; keep the schema, not the run)
+runs/
+*.log
+.cache/
+
+# scratch render used to eyeball the diagram, not a deliverable
+midterm/diagrams/arch_check.png
