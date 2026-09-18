@@ -58,10 +58,10 @@
 <rect x="38" y="398" width="170" height="28" rx="3" class="hl"/><text x="47" y="411" class="t">entities.json</text><text x="47" y="421" class="tt">profile · accounts · value tier</text>
 <rect x="38" y="434" width="170" height="60" rx="3" class="hl"/>
 <text x="47" y="448" class="tb">Expectation checker  [T]</text>
-<text x="47" y="461" class="ts">daily tick. Compares what</text>
-<text x="47" y="472" class="ts">should have arrived against</text>
-<text x="47" y="483" class="ts">what did, and injects a</text>
-<text x="47" y="493" class="tt">synthetic expectation_breach</text>
+<text x="47" y="460" class="ts">daily tick on the <tspan font-weight="600">replay clock</tspan>,</text>
+<text x="47" y="471" class="ts">never on watermark advance.</text>
+<text x="47" y="482" class="ts">Injects a synthetic</text>
+<text x="47" y="493" class="tt">expectation_breach event</text>
 
 <!-- ========================= COL 2 : INGEST + REFLEX ========================= -->
 <text x="246" y="92" class="hdr">INGESTION + TIER-0 REFLEX</text>
@@ -80,8 +80,8 @@
 
 <rect x="250" y="218" width="288" height="40" rx="3" class="box"/>
 <text x="259" y="233" class="tb">Event-time buffer + watermark</text>
-<text x="259" y="246" class="ts">ordered by event_time, never by arrival · allowed</text>
-<text x="259" y="255" class="ts">lateness 72 h · a late event revises, it is not dropped</text>
+<text x="259" y="246" class="ts">ordered by event_time · lateness 72 h · used only to</text>
+<text x="259" y="255" class="ts">close windows, never to drive timers (see note)</text>
 
 <rect x="250" y="264" width="288" height="32" rx="3" fill="#eef4ef" stroke="#6f9b81" stroke-width="1.6"/>
 <text x="259" y="279" class="tb">Immutable event log</text>
@@ -96,7 +96,7 @@
 <rect x="250" y="368" width="288" height="66" rx="3" class="rfx"/>
 <text x="259" y="383" class="tb">Cheap detectors  [E]</text>
 <text x="259" y="396" class="ts">novel category · cadence break · income shortfall · sweep</text>
-<text x="259" y="407" class="ts">pair · balance drawdown · SI set-diff · counterparty class</text>
+<text x="259" y="407" class="ts">pair · drawdown · SI set-diff · no absolute amount threshold</text>
 <text x="259" y="421" class="tt">a Signal is emitted only when a test actually fires, so roughly</text>
 <text x="259" y="430" class="tt">8% of traffic reaches the expensive tier</text>
 
@@ -146,8 +146,8 @@
 <text x="589" y="488" class="tt">unremarkable signals into one strong one.</text>
 
 <!-- ========================= COL 4 : DELIBERATION ========================= -->
-<text x="884" y="92" class="hdr">DELIBERATION  —  handoff, then debate only if needed</text>
-<text x="884" y="104" class="sub">receives structured assertions, never another agent's reasoning trace</text>
+<text x="884" y="92" class="hdr">DELIBERATION</text>
+<text x="884" y="104" class="sub">handoff in; debate only when the top two are close</text>
 <rect x="878" y="112" width="286" height="392" class="band" rx="5"/>
 
 <rect x="888" y="122" width="266" height="70" rx="3" class="del"/>
@@ -418,7 +418,7 @@
 
 <text x="44"   y="884" class="t">No card spend or app session for 36 days, against a 2-day historical max gap</text>
 <text x="620"  y="884" class="t">Expectation checker, daily tick  [T]</text>
-<text x="1120" y="884" class="t">Nothing is emitted to react to; the only arrivals are salary in and salary out</text>
+<text x="1120" y="884" class="t">A watermark-driven timer deadlocks here: no events means no watermark advance</text>
 
 <text x="44"   y="912" class="t">Salary of $3,800 every 14 days stops, becomes $1,400 of benefits, then nothing</text>
 <text x="620"  y="912" class="t">Expected-arrival table + income shortfall detector</text>
@@ -440,8 +440,8 @@
 <text x="620"  y="1024" class="t">Event-time watermark with 72 h allowed lateness</text>
 <text x="1120" y="1024" class="t">Ordering by arrival time silently drops it from the window it belongs to</text>
 
-<text x="44"   y="1052" class="t">Red herrings are the largest amounts; real signals run $85 to $500</text>
-<text x="620"  y="1052" class="t">Novel-category and counterparty class, not an amount z-score</text>
+<text x="44"   y="1052" class="t">Red herrings are large; real signals run $85 to $500. Novelty alone is ~2/3 precise</text>
+<text x="620"  y="1052" class="t">Novelty wakes the tier; corroboration across sources decides</text>
 <text x="1120" y="1052" class="t">Ranking by size puts a tuition wire above an ER visit</text>
 
 <text x="44"   y="1080" class="t">A new $1,200 daycare instruction appears; rent, gym and utilities stop</text>
