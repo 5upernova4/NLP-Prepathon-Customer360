@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1180" width="960" height="1180" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+    <path d="M0,0 L10,4 L0,8 z" fill="#44505c"/>
+  </marker>
+  <marker id="b" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+    <path d="M0,0 L10,4 L0,8 z" fill="#b0873a"/>
+  </marker>
+  <style>
+    .box  { fill:#ffffff; stroke:#44505c; stroke-width:1.6; }
+    .key  { fill:#eef3f7; stroke:#2f6b85; stroke-width:2.4; }
+    .amb  { fill:#fdf5e6; stroke:#b0873a; stroke-width:1.8; }
+    .stop { fill:#fbeeec; stroke:#a4504a; stroke-width:1.8; }
+    .t    { font-size:15px; fill:#16202a; font-weight:600; }
+    .s    { font-size:12.5px; fill:#4d5a66; }
+    .n    { font-size:11.5px; fill:#828d97; font-style:italic; }
+    .ar   { stroke:#44505c; stroke-width:1.8; fill:none; marker-end:url(#a); }
+    .am   { stroke:#b0873a; stroke-width:1.8; fill:none; marker-end:url(#b); stroke-dasharray:7 5; }
+  </style>
+</defs>
+
+<rect width="960" height="1180" fill="#fdfdfc"/>
+
+<text x="40" y="46" font-size="20" font-weight="600" fill="#16202a">Agentic Customer 360 — how one decision gets made</text>
+<text x="40" y="68" class="s">One customer, one live event stream, one committed action or an explicit no-action.</text>
+
+<!-- sources -->
+<rect x="290" y="100" width="370" height="54" rx="5" class="box"/>
+<text x="310" y="124" class="t">Event sources</text>
+<text x="310" y="143" class="s">cards · transfers · ledger · KYC · app · support · brokerage</text>
+
+<path d="M475 154 L475 186" class="ar"/>
+
+<!-- ingest -->
+<rect x="290" y="188" width="370" height="76" rx="5" class="box"/>
+<text x="310" y="212" class="t">Ingest</text>
+<text x="310" y="231" class="s">order by when it happened, not when it arrived</text>
+<text x="310" y="249" class="s">collapse duplicates · swap names for surrogates</text>
+<text x="676" y="224" class="n">a $12k wire and a $12k ledger</text>
+<text x="676" y="240" class="n">withdrawal are one movement</text>
+
+<path d="M475 264 L475 294" class="ar"/>
+
+<!-- log -->
+<rect x="290" y="296" width="370" height="50" rx="5" class="box"/>
+<text x="310" y="320" class="t">Append-only event log</text>
+<text x="310" y="337" class="s">replayable · the only source of truth</text>
+
+<!-- scheduler -->
+<rect x="40" y="284" width="210" height="80" rx="5" class="amb"/>
+<text x="58" y="308" class="t">Daily tick</text>
+<text x="58" y="327" class="s">what was due today</text>
+<text x="58" y="345" class="s">and never turned up?</text>
+<text x="58" y="360" class="n">runs on the calendar</text>
+<path d="M250 320 L286 320" class="am"/>
+<text x="40" y="384" class="n">missed salary · app gone quiet</text>
+<text x="40" y="400" class="n">standing order stopped</text>
+
+<path d="M475 346 L475 376" class="ar"/>
+
+<!-- features + detectors -->
+<rect x="290" y="378" width="370" height="94" rx="5" class="box"/>
+<text x="310" y="402" class="t">Baseline, then the cheap tests</text>
+<text x="310" y="421" class="s">is this category new for him? is the salary short?</text>
+<text x="310" y="439" class="s">did money land and leave again? is savings sliding?</text>
+<text x="310" y="461" class="n">plain arithmetic against his own history — no model here</text>
+
+<path d="M475 472 L475 512" class="ar"/>
+<text x="487" y="497" class="s">about 8% of events get past this</text>
+
+<!-- swarm -->
+<rect x="290" y="514" width="370" height="112" rx="5" class="box"/>
+<text x="310" y="538" class="t">Four specialists, working in parallel</text>
+<text x="310" y="560" class="s">usage — how often he actually shows up</text>
+<text x="310" y="578" class="s">transaction — money against his own normal</text>
+<text x="310" y="596" class="s">support — reads what he wrote to us</text>
+<text x="310" y="614" class="s">KYC — facts he has declared</text>
+<text x="676" y="566" class="n">each is handed only its own</text>
+<text x="676" y="582" class="n">sources. support cannot see</text>
+<text x="676" y="598" class="n">balances at all.</text>
+
+<path d="M475 626 L475 656" class="ar"/>
+
+<!-- ledger -->
+<rect x="240" y="658" width="480" height="122" rx="6" class="key"/>
+<text x="262" y="686" class="t" font-size="16">Evidence ledger</text>
+<text x="262" y="707" class="s">every finding is one row: which hypothesis, what it's worth,</text>
+<text x="262" y="725" class="s">when it happened, how fast it goes stale, which events back it</text>
+<text x="262" y="749" class="s" font-weight="600">confidence = those rows added up, faded by age</text>
+<text x="262" y="769" class="n">a later event can strike a row out — it stays on the record, it just stops counting</text>
+
+<path d="M475 780 L475 810" class="ar"/>
+
+<!-- correlate -->
+<rect x="290" y="812" width="370" height="58" rx="5" class="box"/>
+<text x="310" y="836" class="t">Do two specialists agree?</text>
+<text x="310" y="855" class="s">only then is it treated as a real life event</text>
+<text x="676" y="846" class="n">this is what tells a baby</text>
+<text x="676" y="862" class="n">from a baby monitor</text>
+
+<path d="M475 870 L475 900" class="ar"/>
+
+<!-- decide -->
+<rect x="290" y="902" width="370" height="58" rx="5" class="box"/>
+<text x="310" y="926" class="t">Settle on a state and a confidence</text>
+<text x="310" y="945" class="s">if the top two are close, argue it out, then cap it and escalate</text>
+
+<path d="M475 960 L475 990" class="ar"/>
+
+<!-- guardrails -->
+<rect x="290" y="992" width="370" height="62" rx="5" class="stop"/>
+<text x="310" y="1016" class="t">Guardrails</text>
+<text x="310" y="1035" class="s">a plain table of what each state may trigger.</text>
+<text x="310" y="1049" class="s">hardship can never produce a sales offer.</text>
+
+<path d="M475 1054 L475 1076" stroke="#44505c" stroke-width="1.8" fill="none"/>
+<path d="M275 1076 L680 1076" stroke="#44505c" stroke-width="1.8" fill="none"/>
+<path d="M275 1076 L275 1090" class="ar"/>
+<path d="M680 1076 L680 1090" class="ar"/>
+
+<!-- hitl + output -->
+<rect x="130" y="1092" width="290" height="62" rx="5" class="amb"/>
+<text x="150" y="1116" class="t">A human decides</text>
+<text x="150" y="1135" class="s">sees the reasons ranked, can ask why,</text>
+<text x="150" y="1149" class="s">then approves, rejects or edits</text>
+
+<rect x="530" y="1092" width="300" height="62" rx="5" class="box"/>
+<text x="550" y="1116" class="t">inferred_events.json</text>
+<text x="550" y="1135" class="s">state, confidence, action, routing.</text>
+<text x="550" y="1149" class="s">rewritten if news arrives late.</text>
+</svg>
