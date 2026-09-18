@@ -1,0 +1,3139 @@
+[
+  {
+    "span_id": "SPAN_00001",
+    "parent": null,
+    "name": "warm_up",
+    "kind": "setup",
+    "start": "2026-09-18T06:05:22.559355+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "baseline",
+        "categories": 2,
+        "expectations": [
+          "salary_credit",
+          "rent_payment",
+          "gym_membership",
+          "utilities"
+        ],
+        "max_gap_days": 1.96
+      }
+    ],
+    "duration_ms": 0.526
+  },
+  {
+    "span_id": "SPAN_00002",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.559891+00:00",
+    "attributes": {
+      "date": "2026-02-01"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": true
+      }
+    ],
+    "duration_ms": 0.025
+  },
+  {
+    "span_id": "SPAN_00003",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.559921+00:00",
+    "attributes": {
+      "date": "2026-02-02"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.014
+  },
+  {
+    "span_id": "SPAN_00004",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.559938+00:00",
+    "attributes": {
+      "date": "2026-02-03"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.016
+  },
+  {
+    "span_id": "SPAN_00005",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.559958+00:00",
+    "attributes": {
+      "date": "2026-02-04"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.068
+  },
+  {
+    "span_id": "SPAN_00006",
+    "parent": "SPAN_00005",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.559991+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00001"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0001",
+        "hypothesis": "churn_risk",
+        "weight": 0.64
+      }
+    ],
+    "duration_ms": 0.007
+  },
+  {
+    "span_id": "SPAN_00007",
+    "parent": "SPAN_00005",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.560005+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00002"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0002",
+        "hypothesis": "churn_risk",
+        "weight": 0.72
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00008",
+    "parent": "SPAN_00005",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.560015+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00003"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0003",
+        "hypothesis": "churn_risk",
+        "weight": 0.64
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00009",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560029+00:00",
+    "attributes": {
+      "date": "2026-02-05"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": true
+      }
+    ],
+    "duration_ms": 0.059
+  },
+  {
+    "span_id": "SPAN_00010",
+    "parent": "SPAN_00009",
+    "name": "agent:support",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.560047+00:00",
+    "attributes": {
+      "signal": "support_ticket",
+      "event_id": "EVT_000409"
+    },
+    "events": [
+      {
+        "message": "support_read",
+        "provenance": "deterministic",
+        "sentiment": "negative",
+        "confirms_own_purchase": false,
+        "signals_hardship": false,
+        "signals_leaving": false
+      }
+    ],
+    "duration_ms": 0.01
+  },
+  {
+    "span_id": "SPAN_00011",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560092+00:00",
+    "attributes": {
+      "date": "2026-02-06"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.056
+  },
+  {
+    "span_id": "SPAN_00012",
+    "parent": "SPAN_00011",
+    "name": "agent:support",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.560115+00:00",
+    "attributes": {
+      "signal": "support_ticket",
+      "event_id": "EVT_000412"
+    },
+    "events": [
+      {
+        "message": "support_read",
+        "provenance": "deterministic",
+        "sentiment": "negative",
+        "confirms_own_purchase": false,
+        "signals_hardship": false,
+        "signals_leaving": false
+      }
+    ],
+    "duration_ms": 0.008
+  },
+  {
+    "span_id": "SPAN_00013",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560152+00:00",
+    "attributes": {
+      "date": "2026-02-07"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.031
+  },
+  {
+    "span_id": "SPAN_00014",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560187+00:00",
+    "attributes": {
+      "date": "2026-02-08"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.028
+  },
+  {
+    "span_id": "SPAN_00015",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560218+00:00",
+    "attributes": {
+      "date": "2026-02-09"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.027
+  },
+  {
+    "span_id": "SPAN_00016",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560248+00:00",
+    "attributes": {
+      "date": "2026-02-10"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.028
+  },
+  {
+    "span_id": "SPAN_00017",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560279+00:00",
+    "attributes": {
+      "date": "2026-02-11"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.034
+  },
+  {
+    "span_id": "SPAN_00018",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560316+00:00",
+    "attributes": {
+      "date": "2026-02-12"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.026
+  },
+  {
+    "span_id": "SPAN_00019",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560347+00:00",
+    "attributes": {
+      "date": "2026-02-13"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.025
+  },
+  {
+    "span_id": "SPAN_00020",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560376+00:00",
+    "attributes": {
+      "date": "2026-02-14"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.032
+  },
+  {
+    "span_id": "SPAN_00021",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560411+00:00",
+    "attributes": {
+      "date": "2026-02-15"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.026
+  },
+  {
+    "span_id": "SPAN_00022",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560440+00:00",
+    "attributes": {
+      "date": "2026-02-16"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.028
+  },
+  {
+    "span_id": "SPAN_00023",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560472+00:00",
+    "attributes": {
+      "date": "2026-02-17"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.026
+  },
+  {
+    "span_id": "SPAN_00024",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560501+00:00",
+    "attributes": {
+      "date": "2026-02-18"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.027
+  },
+  {
+    "span_id": "SPAN_00025",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560531+00:00",
+    "attributes": {
+      "date": "2026-02-19"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.026
+  },
+  {
+    "span_id": "SPAN_00026",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560560+00:00",
+    "attributes": {
+      "date": "2026-02-20"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.03
+  },
+  {
+    "span_id": "SPAN_00027",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560593+00:00",
+    "attributes": {
+      "date": "2026-02-21"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.029
+  },
+  {
+    "span_id": "SPAN_00028",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560625+00:00",
+    "attributes": {
+      "date": "2026-02-22"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.025
+  },
+  {
+    "span_id": "SPAN_00029",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560654+00:00",
+    "attributes": {
+      "date": "2026-02-23"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.028
+  },
+  {
+    "span_id": "SPAN_00030",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560685+00:00",
+    "attributes": {
+      "date": "2026-02-24"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.025
+  },
+  {
+    "span_id": "SPAN_00031",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560713+00:00",
+    "attributes": {
+      "date": "2026-02-25"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.024
+  },
+  {
+    "span_id": "SPAN_00032",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560741+00:00",
+    "attributes": {
+      "date": "2026-02-26"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.025
+  },
+  {
+    "span_id": "SPAN_00033",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560769+00:00",
+    "attributes": {
+      "date": "2026-02-27"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.028
+  },
+  {
+    "span_id": "SPAN_00034",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560800+00:00",
+    "attributes": {
+      "date": "2026-02-28"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.033
+  },
+  {
+    "span_id": "SPAN_00035",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560836+00:00",
+    "attributes": {
+      "date": "2026-03-01"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.043
+  },
+  {
+    "span_id": "SPAN_00036",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560882+00:00",
+    "attributes": {
+      "date": "2026-03-02"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.02
+  },
+  {
+    "span_id": "SPAN_00037",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560905+00:00",
+    "attributes": {
+      "date": "2026-03-03"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.023
+  },
+  {
+    "span_id": "SPAN_00038",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560931+00:00",
+    "attributes": {
+      "date": "2026-03-04"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "medium",
+        "action": "no_action",
+        "changed": true
+      }
+    ],
+    "duration_ms": 0.045
+  },
+  {
+    "span_id": "SPAN_00039",
+    "parent": "SPAN_00038",
+    "name": "agent:usage",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.560945+00:00",
+    "attributes": {
+      "signal": "si_cancel_intent",
+      "event_id": "EVT_000457"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0007",
+        "hypothesis": "churn_risk",
+        "weight": 1.7
+      }
+    ],
+    "duration_ms": 0.006
+  },
+  {
+    "span_id": "SPAN_00040",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.560979+00:00",
+    "attributes": {
+      "date": "2026-03-05"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.03
+  },
+  {
+    "span_id": "SPAN_00041",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561012+00:00",
+    "attributes": {
+      "date": "2026-03-06"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": true
+      }
+    ],
+    "duration_ms": 0.073
+  },
+  {
+    "span_id": "SPAN_00042",
+    "parent": "SPAN_00041",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561029+00:00",
+    "attributes": {
+      "signal": "competitor_outflow",
+      "event_id": "EVT_000461"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0009",
+        "hypothesis": "churn_risk",
+        "weight": 2.0
+      }
+    ],
+    "duration_ms": 0.006
+  },
+  {
+    "span_id": "SPAN_00043",
+    "parent": "SPAN_00041",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561071+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.006
+  },
+  {
+    "span_id": "SPAN_00044",
+    "parent": "SPAN_00041",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561079+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00045",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561089+00:00",
+    "attributes": {
+      "date": "2026-03-07"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.038
+  },
+  {
+    "span_id": "SPAN_00046",
+    "parent": "SPAN_00045",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561116+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00047",
+    "parent": "SPAN_00045",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561122+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00048",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561130+00:00",
+    "attributes": {
+      "date": "2026-03-08"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.043
+  },
+  {
+    "span_id": "SPAN_00049",
+    "parent": "SPAN_00048",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561162+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00050",
+    "parent": "SPAN_00048",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561168+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00051",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561176+00:00",
+    "attributes": {
+      "date": "2026-03-09"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.047
+  },
+  {
+    "span_id": "SPAN_00052",
+    "parent": "SPAN_00051",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561212+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00053",
+    "parent": "SPAN_00051",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561218+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00054",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561226+00:00",
+    "attributes": {
+      "date": "2026-03-10"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.036
+  },
+  {
+    "span_id": "SPAN_00055",
+    "parent": "SPAN_00054",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561252+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00056",
+    "parent": "SPAN_00054",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561258+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00057",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561265+00:00",
+    "attributes": {
+      "date": "2026-03-11"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.036
+  },
+  {
+    "span_id": "SPAN_00058",
+    "parent": "SPAN_00057",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561291+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00059",
+    "parent": "SPAN_00057",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561296+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00060",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561304+00:00",
+    "attributes": {
+      "date": "2026-03-12"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.035
+  },
+  {
+    "span_id": "SPAN_00061",
+    "parent": "SPAN_00060",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561329+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00062",
+    "parent": "SPAN_00060",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561335+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00063",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561343+00:00",
+    "attributes": {
+      "date": "2026-03-13"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.036
+  },
+  {
+    "span_id": "SPAN_00064",
+    "parent": "SPAN_00063",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561368+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00065",
+    "parent": "SPAN_00063",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561373+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00066",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561381+00:00",
+    "attributes": {
+      "date": "2026-03-14"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.035
+  },
+  {
+    "span_id": "SPAN_00067",
+    "parent": "SPAN_00066",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561406+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00068",
+    "parent": "SPAN_00066",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561412+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00069",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561419+00:00",
+    "attributes": {
+      "date": "2026-03-15"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.059
+  },
+  {
+    "span_id": "SPAN_00070",
+    "parent": "SPAN_00069",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561433+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00004"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0010",
+        "hypothesis": "churn_risk",
+        "weight": 1.91
+      }
+    ],
+    "duration_ms": 0.005
+  },
+  {
+    "span_id": "SPAN_00071",
+    "parent": "SPAN_00069",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561468+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00072",
+    "parent": "SPAN_00069",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561474+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00073",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561482+00:00",
+    "attributes": {
+      "date": "2026-03-16"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.058
+  },
+  {
+    "span_id": "SPAN_00074",
+    "parent": "SPAN_00073",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561495+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00005"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0012",
+        "hypothesis": "churn_risk",
+        "weight": 2.01
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00075",
+    "parent": "SPAN_00073",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561528+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00076",
+    "parent": "SPAN_00073",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561534+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00077",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561542+00:00",
+    "attributes": {
+      "date": "2026-03-17"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.04
+  },
+  {
+    "span_id": "SPAN_00078",
+    "parent": "SPAN_00077",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561572+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00079",
+    "parent": "SPAN_00077",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561578+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00080",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561586+00:00",
+    "attributes": {
+      "date": "2026-03-18"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.046
+  },
+  {
+    "span_id": "SPAN_00081",
+    "parent": "SPAN_00080",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561619+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00082",
+    "parent": "SPAN_00080",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561626+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00083",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561634+00:00",
+    "attributes": {
+      "date": "2026-03-19"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.044
+  },
+  {
+    "span_id": "SPAN_00084",
+    "parent": "SPAN_00083",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561665+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.007
+  },
+  {
+    "span_id": "SPAN_00085",
+    "parent": "SPAN_00083",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561674+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00086",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561682+00:00",
+    "attributes": {
+      "date": "2026-03-20"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.096
+  },
+  {
+    "span_id": "SPAN_00087",
+    "parent": "SPAN_00086",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561701+00:00",
+    "attributes": {
+      "signal": "competitor_outflow",
+      "event_id": "EVT_000469"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0013",
+        "hypothesis": "churn_risk",
+        "weight": 2.0
+      }
+    ],
+    "duration_ms": 0.031
+  },
+  {
+    "span_id": "SPAN_00088",
+    "parent": "SPAN_00086",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561766+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00089",
+    "parent": "SPAN_00086",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561773+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00090",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561782+00:00",
+    "attributes": {
+      "date": "2026-03-21"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.042
+  },
+  {
+    "span_id": "SPAN_00091",
+    "parent": "SPAN_00090",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561813+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00092",
+    "parent": "SPAN_00090",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561819+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00093",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561827+00:00",
+    "attributes": {
+      "date": "2026-03-22"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.041
+  },
+  {
+    "span_id": "SPAN_00094",
+    "parent": "SPAN_00093",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561858+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00095",
+    "parent": "SPAN_00093",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561863+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00096",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561871+00:00",
+    "attributes": {
+      "date": "2026-03-23"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.061
+  },
+  {
+    "span_id": "SPAN_00097",
+    "parent": "SPAN_00096",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561884+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00006"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0014",
+        "hypothesis": "churn_risk",
+        "weight": 2.72
+      }
+    ],
+    "duration_ms": 0.005
+  },
+  {
+    "span_id": "SPAN_00098",
+    "parent": "SPAN_00096",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561922+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00099",
+    "parent": "SPAN_00096",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561927+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00100",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561935+00:00",
+    "attributes": {
+      "date": "2026-03-24"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.042
+  },
+  {
+    "span_id": "SPAN_00101",
+    "parent": "SPAN_00100",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561967+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00102",
+    "parent": "SPAN_00100",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.561973+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00103",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.561980+00:00",
+    "attributes": {
+      "date": "2026-03-25"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.042
+  },
+  {
+    "span_id": "SPAN_00104",
+    "parent": "SPAN_00103",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562012+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00105",
+    "parent": "SPAN_00103",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562017+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00106",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562025+00:00",
+    "attributes": {
+      "date": "2026-03-26"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.04
+  },
+  {
+    "span_id": "SPAN_00107",
+    "parent": "SPAN_00106",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562056+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00108",
+    "parent": "SPAN_00106",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562061+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00109",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562068+00:00",
+    "attributes": {
+      "date": "2026-03-27"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.041
+  },
+  {
+    "span_id": "SPAN_00110",
+    "parent": "SPAN_00109",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562099+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00111",
+    "parent": "SPAN_00109",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562104+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00112",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562112+00:00",
+    "attributes": {
+      "date": "2026-03-28"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.04
+  },
+  {
+    "span_id": "SPAN_00113",
+    "parent": "SPAN_00112",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562143+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00114",
+    "parent": "SPAN_00112",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562148+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00115",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562155+00:00",
+    "attributes": {
+      "date": "2026-03-29"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.041
+  },
+  {
+    "span_id": "SPAN_00116",
+    "parent": "SPAN_00115",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562186+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00117",
+    "parent": "SPAN_00115",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562192+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00118",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562199+00:00",
+    "attributes": {
+      "date": "2026-03-30"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.063
+  },
+  {
+    "span_id": "SPAN_00119",
+    "parent": "SPAN_00118",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562211+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00007"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0016",
+        "hypothesis": "churn_risk",
+        "weight": 3.2
+      }
+    ],
+    "duration_ms": 0.005
+  },
+  {
+    "span_id": "SPAN_00120",
+    "parent": "SPAN_00118",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562251+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00121",
+    "parent": "SPAN_00118",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562257+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00122",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562266+00:00",
+    "attributes": {
+      "date": "2026-03-31"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.046
+  },
+  {
+    "span_id": "SPAN_00123",
+    "parent": "SPAN_00122",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562300+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00124",
+    "parent": "SPAN_00122",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562306+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00125",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562314+00:00",
+    "attributes": {
+      "date": "2026-04-01"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.043
+  },
+  {
+    "span_id": "SPAN_00126",
+    "parent": "SPAN_00125",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562347+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00127",
+    "parent": "SPAN_00125",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562353+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00128",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562360+00:00",
+    "attributes": {
+      "date": "2026-04-02"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.044
+  },
+  {
+    "span_id": "SPAN_00129",
+    "parent": "SPAN_00128",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562394+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00130",
+    "parent": "SPAN_00128",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562399+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00131",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562407+00:00",
+    "attributes": {
+      "date": "2026-04-03"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.068
+  },
+  {
+    "span_id": "SPAN_00132",
+    "parent": "SPAN_00131",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562424+00:00",
+    "attributes": {
+      "signal": "competitor_outflow",
+      "event_id": "EVT_000471"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0018",
+        "hypothesis": "churn_risk",
+        "weight": 2.0
+      }
+    ],
+    "duration_ms": 0.005
+  },
+  {
+    "span_id": "SPAN_00133",
+    "parent": "SPAN_00131",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562464+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00134",
+    "parent": "SPAN_00131",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562470+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00135",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562478+00:00",
+    "attributes": {
+      "date": "2026-04-04"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.089
+  },
+  {
+    "span_id": "SPAN_00136",
+    "parent": "SPAN_00135",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562498+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00008"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0019",
+        "hypothesis": "churn_risk",
+        "weight": 0.64
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00137",
+    "parent": "SPAN_00135",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562508+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00009"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0020",
+        "hypothesis": "churn_risk",
+        "weight": 0.72
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00138",
+    "parent": "SPAN_00135",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562517+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00010"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0021",
+        "hypothesis": "churn_risk",
+        "weight": 0.64
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00139",
+    "parent": "SPAN_00135",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562556+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00140",
+    "parent": "SPAN_00135",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562562+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00141",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562570+00:00",
+    "attributes": {
+      "date": "2026-04-05"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.057
+  },
+  {
+    "span_id": "SPAN_00142",
+    "parent": "SPAN_00141",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562614+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00143",
+    "parent": "SPAN_00141",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562621+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00144",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562631+00:00",
+    "attributes": {
+      "date": "2026-04-06"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.072
+  },
+  {
+    "span_id": "SPAN_00145",
+    "parent": "SPAN_00144",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562645+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00011"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0022",
+        "hypothesis": "churn_risk",
+        "weight": 3.2
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00146",
+    "parent": "SPAN_00144",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562692+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00147",
+    "parent": "SPAN_00144",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562698+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00148",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562706+00:00",
+    "attributes": {
+      "date": "2026-04-07"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.057
+  },
+  {
+    "span_id": "SPAN_00149",
+    "parent": "SPAN_00148",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562752+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00150",
+    "parent": "SPAN_00148",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562758+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00151",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562766+00:00",
+    "attributes": {
+      "date": "2026-04-08"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.054
+  },
+  {
+    "span_id": "SPAN_00152",
+    "parent": "SPAN_00151",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562810+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00153",
+    "parent": "SPAN_00151",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562815+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00154",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562823+00:00",
+    "attributes": {
+      "date": "2026-04-09"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.051
+  },
+  {
+    "span_id": "SPAN_00155",
+    "parent": "SPAN_00154",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562864+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00156",
+    "parent": "SPAN_00154",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562870+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00157",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562877+00:00",
+    "attributes": {
+      "date": "2026-04-10"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.055
+  },
+  {
+    "span_id": "SPAN_00158",
+    "parent": "SPAN_00157",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562921+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00159",
+    "parent": "SPAN_00157",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562926+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00160",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562938+00:00",
+    "attributes": {
+      "date": "2026-04-11"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.049
+  },
+  {
+    "span_id": "SPAN_00161",
+    "parent": "SPAN_00160",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562977+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00162",
+    "parent": "SPAN_00160",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.562982+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00163",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.562990+00:00",
+    "attributes": {
+      "date": "2026-04-12"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.048
+  },
+  {
+    "span_id": "SPAN_00164",
+    "parent": "SPAN_00163",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.563028+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00165",
+    "parent": "SPAN_00163",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.563034+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00166",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.563041+00:00",
+    "attributes": {
+      "date": "2026-04-13"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.072
+  },
+  {
+    "span_id": "SPAN_00167",
+    "parent": "SPAN_00166",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.563054+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00012"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0024",
+        "hypothesis": "churn_risk",
+        "weight": 3.2
+      }
+    ],
+    "duration_ms": 0.005
+  },
+  {
+    "span_id": "SPAN_00168",
+    "parent": "SPAN_00166",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.563102+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00169",
+    "parent": "SPAN_00166",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.563108+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00170",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.563116+00:00",
+    "attributes": {
+      "date": "2026-04-14"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.052
+  },
+  {
+    "span_id": "SPAN_00171",
+    "parent": "SPAN_00170",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.563158+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00172",
+    "parent": "SPAN_00170",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.563163+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00173",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.563171+00:00",
+    "attributes": {
+      "date": "2026-04-15"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "churn_risk",
+        "action": "relationship_manager_escalation",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "churn_risk",
+        "band": "high",
+        "action": "relationship_manager_escalation",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.052
+  },
+  {
+    "span_id": "SPAN_00174",
+    "parent": "SPAN_00173",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.563213+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00175",
+    "parent": "SPAN_00173",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.563219+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  }
+]

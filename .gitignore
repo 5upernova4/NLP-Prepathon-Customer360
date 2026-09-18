@@ -23,8 +23,10 @@ env/
 *.key
 secrets.*
 
-# Runtime output (regenerable; keep the schema, not the run)
-runs/
+# Runtime output. runs/ is deliberately COMMITTED, not ignored: the audit and
+# trace files are the demonstrable evidence for the observability and
+# explainability criteria, and a reviewer who does not execute the code would
+# otherwise have only the docs' word for it. See runs/README.md.
 *.log
 .cache/
 

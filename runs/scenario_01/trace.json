@@ -1,0 +1,2674 @@
+[
+  {
+    "span_id": "SPAN_00001",
+    "parent": null,
+    "name": "warm_up",
+    "kind": "setup",
+    "start": "2026-09-18T06:05:22.536911+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "baseline",
+        "categories": 4,
+        "expectations": [
+          "salary_credit",
+          "mortgage_payment"
+        ],
+        "max_gap_days": 1.4
+      }
+    ],
+    "duration_ms": 0.588
+  },
+  {
+    "span_id": "SPAN_00002",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.537652+00:00",
+    "attributes": {
+      "date": "2026-02-01"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": true
+      }
+    ],
+    "duration_ms": 0.042
+  },
+  {
+    "span_id": "SPAN_00003",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.537701+00:00",
+    "attributes": {
+      "date": "2026-02-02"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.019
+  },
+  {
+    "span_id": "SPAN_00004",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.537725+00:00",
+    "attributes": {
+      "date": "2026-02-03"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.037
+  },
+  {
+    "span_id": "SPAN_00005",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.537767+00:00",
+    "attributes": {
+      "date": "2026-02-04"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.045
+  },
+  {
+    "span_id": "SPAN_00006",
+    "parent": "SPAN_00005",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.537796+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00001"
+    },
+    "events": [],
+    "duration_ms": 0.006
+  },
+  {
+    "span_id": "SPAN_00007",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.537816+00:00",
+    "attributes": {
+      "date": "2026-02-05"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.027
+  },
+  {
+    "span_id": "SPAN_00008",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.537847+00:00",
+    "attributes": {
+      "date": "2026-02-06"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.022
+  },
+  {
+    "span_id": "SPAN_00009",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.537872+00:00",
+    "attributes": {
+      "date": "2026-02-07"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.016
+  },
+  {
+    "span_id": "SPAN_00010",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.537891+00:00",
+    "attributes": {
+      "date": "2026-02-08"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.017
+  },
+  {
+    "span_id": "SPAN_00011",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.537911+00:00",
+    "attributes": {
+      "date": "2026-02-09"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.015
+  },
+  {
+    "span_id": "SPAN_00012",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.537929+00:00",
+    "attributes": {
+      "date": "2026-02-10"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": true
+      }
+    ],
+    "duration_ms": 0.115
+  },
+  {
+    "span_id": "SPAN_00013",
+    "parent": "SPAN_00012",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.537980+00:00",
+    "attributes": {
+      "signal": "novel_category",
+      "event_id": "EVT_000392"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0001",
+        "hypothesis": "medical_hardship",
+        "weight": 1.3
+      }
+    ],
+    "duration_ms": 0.012
+  },
+  {
+    "span_id": "SPAN_00014",
+    "parent": "SPAN_00012",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.537997+00:00",
+    "attributes": {
+      "signal": "health_spend",
+      "event_id": "EVT_000392"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0002",
+        "hypothesis": "medical_hardship",
+        "weight": 0.67
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0003",
+        "hypothesis": "financial_distress_general",
+        "weight": 0.18
+      }
+    ],
+    "duration_ms": 0.008
+  },
+  {
+    "span_id": "SPAN_00015",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538049+00:00",
+    "attributes": {
+      "date": "2026-02-11"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.036
+  },
+  {
+    "span_id": "SPAN_00016",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538089+00:00",
+    "attributes": {
+      "date": "2026-02-12"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.054
+  },
+  {
+    "span_id": "SPAN_00017",
+    "parent": "SPAN_00016",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.538110+00:00",
+    "attributes": {
+      "signal": "novel_category",
+      "event_id": "EVT_000395"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0004",
+        "hypothesis": "medical_hardship",
+        "weight": 0.9
+      }
+    ],
+    "duration_ms": 0.007
+  },
+  {
+    "span_id": "SPAN_00018",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538147+00:00",
+    "attributes": {
+      "date": "2026-02-13"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.033
+  },
+  {
+    "span_id": "SPAN_00019",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538183+00:00",
+    "attributes": {
+      "date": "2026-02-14"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.028
+  },
+  {
+    "span_id": "SPAN_00020",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538215+00:00",
+    "attributes": {
+      "date": "2026-02-15"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.027
+  },
+  {
+    "span_id": "SPAN_00021",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538246+00:00",
+    "attributes": {
+      "date": "2026-02-16"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.027
+  },
+  {
+    "span_id": "SPAN_00022",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538277+00:00",
+    "attributes": {
+      "date": "2026-02-17"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.023
+  },
+  {
+    "span_id": "SPAN_00023",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538303+00:00",
+    "attributes": {
+      "date": "2026-02-18"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.045
+  },
+  {
+    "span_id": "SPAN_00024",
+    "parent": "SPAN_00023",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.538320+00:00",
+    "attributes": {
+      "signal": "novel_category",
+      "event_id": "EVT_000402"
+    },
+    "events": [],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00025",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538353+00:00",
+    "attributes": {
+      "date": "2026-02-19"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.03
+  },
+  {
+    "span_id": "SPAN_00026",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538387+00:00",
+    "attributes": {
+      "date": "2026-02-20"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.06
+  },
+  {
+    "span_id": "SPAN_00027",
+    "parent": "SPAN_00026",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.538406+00:00",
+    "attributes": {
+      "signal": "income_shortfall",
+      "event_id": "EVT_000406"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0005",
+        "hypothesis": "medical_hardship",
+        "weight": 1.58
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0006",
+        "hypothesis": "job_loss_or_income_disruption",
+        "weight": 0.55
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0007",
+        "hypothesis": "financial_distress_general",
+        "weight": 0.71
+      }
+    ],
+    "duration_ms": 0.011
+  },
+  {
+    "span_id": "SPAN_00028",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538451+00:00",
+    "attributes": {
+      "date": "2026-02-21"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.037
+  },
+  {
+    "span_id": "SPAN_00029",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538491+00:00",
+    "attributes": {
+      "date": "2026-02-22"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.028
+  },
+  {
+    "span_id": "SPAN_00030",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538524+00:00",
+    "attributes": {
+      "date": "2026-02-23"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.035
+  },
+  {
+    "span_id": "SPAN_00031",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538563+00:00",
+    "attributes": {
+      "date": "2026-02-24"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.068
+  },
+  {
+    "span_id": "SPAN_00032",
+    "parent": "SPAN_00031",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.538588+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00002"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0008",
+        "hypothesis": "job_loss_or_income_disruption",
+        "weight": 1.12
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0009",
+        "hypothesis": "financial_distress_general",
+        "weight": 0.72
+      }
+    ],
+    "duration_ms": 0.008
+  },
+  {
+    "span_id": "SPAN_00033",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538635+00:00",
+    "attributes": {
+      "date": "2026-02-25"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.037
+  },
+  {
+    "span_id": "SPAN_00034",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538676+00:00",
+    "attributes": {
+      "date": "2026-02-26"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.044
+  },
+  {
+    "span_id": "SPAN_00035",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538724+00:00",
+    "attributes": {
+      "date": "2026-02-27"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.04
+  },
+  {
+    "span_id": "SPAN_00036",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538767+00:00",
+    "attributes": {
+      "date": "2026-02-28"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.036
+  },
+  {
+    "span_id": "SPAN_00037",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538807+00:00",
+    "attributes": {
+      "date": "2026-03-01"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.043
+  },
+  {
+    "span_id": "SPAN_00038",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538854+00:00",
+    "attributes": {
+      "date": "2026-03-02"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.035
+  },
+  {
+    "span_id": "SPAN_00039",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538893+00:00",
+    "attributes": {
+      "date": "2026-03-03"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": true
+      }
+    ],
+    "duration_ms": 0.091
+  },
+  {
+    "span_id": "SPAN_00040",
+    "parent": "SPAN_00039",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.538917+00:00",
+    "attributes": {
+      "signal": "novel_category",
+      "event_id": "EVT_000420"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0012",
+        "hypothesis": "medical_hardship",
+        "weight": 1.3
+      }
+    ],
+    "duration_ms": 0.008
+  },
+  {
+    "span_id": "SPAN_00041",
+    "parent": "SPAN_00039",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.538928+00:00",
+    "attributes": {
+      "signal": "health_spend",
+      "event_id": "EVT_000420"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0013",
+        "hypothesis": "medical_hardship",
+        "weight": 0.66
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0014",
+        "hypothesis": "financial_distress_general",
+        "weight": 0.18
+      }
+    ],
+    "duration_ms": 0.007
+  },
+  {
+    "span_id": "SPAN_00042",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.538988+00:00",
+    "attributes": {
+      "date": "2026-03-04"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.041
+  },
+  {
+    "span_id": "SPAN_00043",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539034+00:00",
+    "attributes": {
+      "date": "2026-03-05"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.04
+  },
+  {
+    "span_id": "SPAN_00044",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539077+00:00",
+    "attributes": {
+      "date": "2026-03-06"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.075
+  },
+  {
+    "span_id": "SPAN_00045",
+    "parent": "SPAN_00044",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.539095+00:00",
+    "attributes": {
+      "signal": "income_shortfall",
+      "event_id": "EVT_000428"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0017",
+        "hypothesis": "medical_hardship",
+        "weight": 1.58
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0018",
+        "hypothesis": "job_loss_or_income_disruption",
+        "weight": 0.55
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0019",
+        "hypothesis": "financial_distress_general",
+        "weight": 0.71
+      }
+    ],
+    "duration_ms": 0.009
+  },
+  {
+    "span_id": "SPAN_00046",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539156+00:00",
+    "attributes": {
+      "date": "2026-03-07"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.048
+  },
+  {
+    "span_id": "SPAN_00047",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539208+00:00",
+    "attributes": {
+      "date": "2026-03-08"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.047
+  },
+  {
+    "span_id": "SPAN_00048",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539258+00:00",
+    "attributes": {
+      "date": "2026-03-09"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.044
+  },
+  {
+    "span_id": "SPAN_00049",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539306+00:00",
+    "attributes": {
+      "date": "2026-03-10"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.091
+  },
+  {
+    "span_id": "SPAN_00050",
+    "parent": "SPAN_00049",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.539325+00:00",
+    "attributes": {
+      "signal": "novel_category",
+      "event_id": "EVT_000436"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0020",
+        "hypothesis": "medical_hardship",
+        "weight": 1.3
+      }
+    ],
+    "duration_ms": 0.006
+  },
+  {
+    "span_id": "SPAN_00051",
+    "parent": "SPAN_00049",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.539334+00:00",
+    "attributes": {
+      "signal": "health_spend",
+      "event_id": "EVT_000436"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0021",
+        "hypothesis": "medical_hardship",
+        "weight": 1.5
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0022",
+        "hypothesis": "financial_distress_general",
+        "weight": 0.4
+      }
+    ],
+    "duration_ms": 0.007
+  },
+  {
+    "span_id": "SPAN_00052",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539402+00:00",
+    "attributes": {
+      "date": "2026-03-11"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.05
+  },
+  {
+    "span_id": "SPAN_00053",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539455+00:00",
+    "attributes": {
+      "date": "2026-03-12"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.046
+  },
+  {
+    "span_id": "SPAN_00054",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539505+00:00",
+    "attributes": {
+      "date": "2026-03-13"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.049
+  },
+  {
+    "span_id": "SPAN_00055",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539558+00:00",
+    "attributes": {
+      "date": "2026-03-14"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.045
+  },
+  {
+    "span_id": "SPAN_00056",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539606+00:00",
+    "attributes": {
+      "date": "2026-03-15"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.081
+  },
+  {
+    "span_id": "SPAN_00057",
+    "parent": "SPAN_00056",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.539629+00:00",
+    "attributes": {
+      "signal": "sweep_pair",
+      "event_id": "EVT_000445"
+    },
+    "events": [],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00058",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539691+00:00",
+    "attributes": {
+      "date": "2026-03-16"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.049
+  },
+  {
+    "span_id": "SPAN_00059",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539744+00:00",
+    "attributes": {
+      "date": "2026-03-17"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.05
+  },
+  {
+    "span_id": "SPAN_00060",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539798+00:00",
+    "attributes": {
+      "date": "2026-03-18"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.047
+  },
+  {
+    "span_id": "SPAN_00061",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539849+00:00",
+    "attributes": {
+      "date": "2026-03-19"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.049
+  },
+  {
+    "span_id": "SPAN_00062",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.539902+00:00",
+    "attributes": {
+      "date": "2026-03-20"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 4
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": true
+      }
+    ],
+    "duration_ms": 0.145
+  },
+  {
+    "span_id": "SPAN_00063",
+    "parent": "SPAN_00062",
+    "name": "agent:usage",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.539925+00:00",
+    "attributes": {
+      "signal": "search_intent",
+      "event_id": "EVT_000453"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0025",
+        "hypothesis": "financial_distress_general",
+        "weight": 1.2
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0026",
+        "hypothesis": "medical_hardship",
+        "weight": 0.9
+      }
+    ],
+    "duration_ms": 0.012
+  },
+  {
+    "span_id": "SPAN_00064",
+    "parent": "SPAN_00062",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540011+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.022
+  },
+  {
+    "span_id": "SPAN_00065",
+    "parent": "SPAN_00062",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540037+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00066",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.540052+00:00",
+    "attributes": {
+      "date": "2026-03-21"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.096
+  },
+  {
+    "span_id": "SPAN_00067",
+    "parent": "SPAN_00066",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540122+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.005
+  },
+  {
+    "span_id": "SPAN_00068",
+    "parent": "SPAN_00066",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540130+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00069",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.540152+00:00",
+    "attributes": {
+      "date": "2026-03-22"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.074
+  },
+  {
+    "span_id": "SPAN_00070",
+    "parent": "SPAN_00069",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540212+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.005
+  },
+  {
+    "span_id": "SPAN_00071",
+    "parent": "SPAN_00069",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540220+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00072",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.540230+00:00",
+    "attributes": {
+      "date": "2026-03-23"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.071
+  },
+  {
+    "span_id": "SPAN_00073",
+    "parent": "SPAN_00072",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540288+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.005
+  },
+  {
+    "span_id": "SPAN_00074",
+    "parent": "SPAN_00072",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540295+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00075",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.540305+00:00",
+    "attributes": {
+      "date": "2026-03-24"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.067
+  },
+  {
+    "span_id": "SPAN_00076",
+    "parent": "SPAN_00075",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540358+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00077",
+    "parent": "SPAN_00075",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540365+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00078",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.540375+00:00",
+    "attributes": {
+      "date": "2026-03-25"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.124
+  },
+  {
+    "span_id": "SPAN_00079",
+    "parent": "SPAN_00078",
+    "name": "agent:support",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540394+00:00",
+    "attributes": {
+      "signal": "support_ticket",
+      "event_id": "EVT_000462"
+    },
+    "events": [
+      {
+        "message": "support_read",
+        "provenance": "deterministic",
+        "sentiment": "neutral",
+        "confirms_own_purchase": false,
+        "signals_hardship": true,
+        "signals_leaving": false
+      }
+    ],
+    "duration_ms": 0.018
+  },
+  {
+    "span_id": "SPAN_00080",
+    "parent": "SPAN_00078",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540484+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.006
+  },
+  {
+    "span_id": "SPAN_00081",
+    "parent": "SPAN_00078",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540493+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00082",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.540504+00:00",
+    "attributes": {
+      "date": "2026-03-26"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.429
+  },
+  {
+    "span_id": "SPAN_00083",
+    "parent": "SPAN_00082",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540916+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.006
+  },
+  {
+    "span_id": "SPAN_00084",
+    "parent": "SPAN_00082",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.540925+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00085",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.540937+00:00",
+    "attributes": {
+      "date": "2026-03-27"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.163
+  },
+  {
+    "span_id": "SPAN_00086",
+    "parent": "SPAN_00085",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541004+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.005
+  },
+  {
+    "span_id": "SPAN_00087",
+    "parent": "SPAN_00085",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541012+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.032
+  },
+  {
+    "span_id": "SPAN_00088",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.541113+00:00",
+    "attributes": {
+      "date": "2026-03-28"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.143
+  },
+  {
+    "span_id": "SPAN_00089",
+    "parent": "SPAN_00088",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541233+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.011
+  },
+  {
+    "span_id": "SPAN_00090",
+    "parent": "SPAN_00088",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541248+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00091",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.541261+00:00",
+    "attributes": {
+      "date": "2026-03-29"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.087
+  },
+  {
+    "span_id": "SPAN_00092",
+    "parent": "SPAN_00091",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541332+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.005
+  },
+  {
+    "span_id": "SPAN_00093",
+    "parent": "SPAN_00091",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541341+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00094",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.541353+00:00",
+    "attributes": {
+      "date": "2026-03-30"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.078
+  },
+  {
+    "span_id": "SPAN_00095",
+    "parent": "SPAN_00094",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541417+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.005
+  },
+  {
+    "span_id": "SPAN_00096",
+    "parent": "SPAN_00094",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541424+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00097",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.541435+00:00",
+    "attributes": {
+      "date": "2026-03-31"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.072
+  },
+  {
+    "span_id": "SPAN_00098",
+    "parent": "SPAN_00097",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541494+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00099",
+    "parent": "SPAN_00097",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541501+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00100",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.541510+00:00",
+    "attributes": {
+      "date": "2026-04-01"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.073
+  },
+  {
+    "span_id": "SPAN_00101",
+    "parent": "SPAN_00100",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541571+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00102",
+    "parent": "SPAN_00100",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541577+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00103",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.541586+00:00",
+    "attributes": {
+      "date": "2026-04-02"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.069
+  },
+  {
+    "span_id": "SPAN_00104",
+    "parent": "SPAN_00103",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541642+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00105",
+    "parent": "SPAN_00103",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541649+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00106",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.541659+00:00",
+    "attributes": {
+      "date": "2026-04-03"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.072
+  },
+  {
+    "span_id": "SPAN_00107",
+    "parent": "SPAN_00106",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541716+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.006
+  },
+  {
+    "span_id": "SPAN_00108",
+    "parent": "SPAN_00106",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541725+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00109",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.541734+00:00",
+    "attributes": {
+      "date": "2026-04-04"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.063
+  },
+  {
+    "span_id": "SPAN_00110",
+    "parent": "SPAN_00109",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541786+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00111",
+    "parent": "SPAN_00109",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541793+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00112",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.541802+00:00",
+    "attributes": {
+      "date": "2026-04-05"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.067
+  },
+  {
+    "span_id": "SPAN_00113",
+    "parent": "SPAN_00112",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541857+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00114",
+    "parent": "SPAN_00112",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541864+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00115",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.541873+00:00",
+    "attributes": {
+      "date": "2026-04-06"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.066
+  },
+  {
+    "span_id": "SPAN_00116",
+    "parent": "SPAN_00115",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541927+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00117",
+    "parent": "SPAN_00115",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541933+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00118",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.541942+00:00",
+    "attributes": {
+      "date": "2026-04-07"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.065
+  },
+  {
+    "span_id": "SPAN_00119",
+    "parent": "SPAN_00118",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.541995+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00120",
+    "parent": "SPAN_00118",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542002+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00121",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.542011+00:00",
+    "attributes": {
+      "date": "2026-04-08"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.072
+  },
+  {
+    "span_id": "SPAN_00122",
+    "parent": "SPAN_00121",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542069+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.005
+  },
+  {
+    "span_id": "SPAN_00123",
+    "parent": "SPAN_00121",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542077+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00124",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.542086+00:00",
+    "attributes": {
+      "date": "2026-04-09"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.065
+  },
+  {
+    "span_id": "SPAN_00125",
+    "parent": "SPAN_00124",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542139+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00126",
+    "parent": "SPAN_00124",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542145+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00127",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.542154+00:00",
+    "attributes": {
+      "date": "2026-04-10"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.073
+  },
+  {
+    "span_id": "SPAN_00128",
+    "parent": "SPAN_00127",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542212+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00129",
+    "parent": "SPAN_00127",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542220+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00130",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.542231+00:00",
+    "attributes": {
+      "date": "2026-04-11"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.064
+  },
+  {
+    "span_id": "SPAN_00131",
+    "parent": "SPAN_00130",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542283+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00132",
+    "parent": "SPAN_00130",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542289+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00133",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.542298+00:00",
+    "attributes": {
+      "date": "2026-04-12"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.075
+  },
+  {
+    "span_id": "SPAN_00134",
+    "parent": "SPAN_00133",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542361+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00135",
+    "parent": "SPAN_00133",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542367+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00136",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.542376+00:00",
+    "attributes": {
+      "date": "2026-04-13"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.066
+  },
+  {
+    "span_id": "SPAN_00137",
+    "parent": "SPAN_00136",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542431+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00138",
+    "parent": "SPAN_00136",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542437+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00139",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.542445+00:00",
+    "attributes": {
+      "date": "2026-04-14"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.067
+  },
+  {
+    "span_id": "SPAN_00140",
+    "parent": "SPAN_00139",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542500+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00141",
+    "parent": "SPAN_00139",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542506+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00142",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.542515+00:00",
+    "attributes": {
+      "date": "2026-04-15"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "medical_hardship",
+        "action": "support_intervention",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "medical_hardship",
+        "band": "high",
+        "action": "support_intervention",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.069
+  },
+  {
+    "span_id": "SPAN_00143",
+    "parent": "SPAN_00142",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542571+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00144",
+    "parent": "SPAN_00142",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.542577+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.003
+  }
+]

@@ -1,0 +1,2644 @@
+[
+  {
+    "span_id": "SPAN_00001",
+    "parent": null,
+    "name": "warm_up",
+    "kind": "setup",
+    "start": "2026-09-18T06:05:22.549117+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "baseline",
+        "categories": 3,
+        "expectations": [
+          "salary_credit",
+          "mortgage_payment"
+        ],
+        "max_gap_days": 2.13
+      }
+    ],
+    "duration_ms": 0.422
+  },
+  {
+    "span_id": "SPAN_00002",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549552+00:00",
+    "attributes": {
+      "date": "2026-02-01"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": true
+      }
+    ],
+    "duration_ms": 0.026
+  },
+  {
+    "span_id": "SPAN_00003",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549583+00:00",
+    "attributes": {
+      "date": "2026-02-02"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.015
+  },
+  {
+    "span_id": "SPAN_00004",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549602+00:00",
+    "attributes": {
+      "date": "2026-02-03"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.014
+  },
+  {
+    "span_id": "SPAN_00005",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549619+00:00",
+    "attributes": {
+      "date": "2026-02-04"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.037
+  },
+  {
+    "span_id": "SPAN_00006",
+    "parent": "SPAN_00005",
+    "name": "agent:ambient",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.549644+00:00",
+    "attributes": {
+      "signal": "expectation_breach",
+      "event_id": "SYN_00001"
+    },
+    "events": [],
+    "duration_ms": 0.006
+  },
+  {
+    "span_id": "SPAN_00007",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549661+00:00",
+    "attributes": {
+      "date": "2026-02-05"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.012
+  },
+  {
+    "span_id": "SPAN_00008",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549677+00:00",
+    "attributes": {
+      "date": "2026-02-06"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.054
+  },
+  {
+    "span_id": "SPAN_00009",
+    "parent": "SPAN_00008",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.549696+00:00",
+    "attributes": {
+      "signal": "income_shortfall",
+      "event_id": "EVT_000301"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0001",
+        "hypothesis": "job_loss_or_income_disruption",
+        "weight": 0.55
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0002",
+        "hypothesis": "financial_distress_general",
+        "weight": 0.5
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0003",
+        "hypothesis": "new_child_life_event",
+        "weight": 0.7
+      }
+    ],
+    "duration_ms": 0.013
+  },
+  {
+    "span_id": "SPAN_00010",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549735+00:00",
+    "attributes": {
+      "date": "2026-02-07"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.02
+  },
+  {
+    "span_id": "SPAN_00011",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549759+00:00",
+    "attributes": {
+      "date": "2026-02-08"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.018
+  },
+  {
+    "span_id": "SPAN_00012",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549781+00:00",
+    "attributes": {
+      "date": "2026-02-09"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.014
+  },
+  {
+    "span_id": "SPAN_00013",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549798+00:00",
+    "attributes": {
+      "date": "2026-02-10"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.017
+  },
+  {
+    "span_id": "SPAN_00014",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549819+00:00",
+    "attributes": {
+      "date": "2026-02-11"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.018
+  },
+  {
+    "span_id": "SPAN_00015",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549840+00:00",
+    "attributes": {
+      "date": "2026-02-12"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.019
+  },
+  {
+    "span_id": "SPAN_00016",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549862+00:00",
+    "attributes": {
+      "date": "2026-02-13"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.017
+  },
+  {
+    "span_id": "SPAN_00017",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549883+00:00",
+    "attributes": {
+      "date": "2026-02-14"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.02
+  },
+  {
+    "span_id": "SPAN_00018",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549907+00:00",
+    "attributes": {
+      "date": "2026-02-15"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.018
+  },
+  {
+    "span_id": "SPAN_00019",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549928+00:00",
+    "attributes": {
+      "date": "2026-02-16"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.02
+  },
+  {
+    "span_id": "SPAN_00020",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549952+00:00",
+    "attributes": {
+      "date": "2026-02-17"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "no_significant_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.022
+  },
+  {
+    "span_id": "SPAN_00021",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.549977+00:00",
+    "attributes": {
+      "date": "2026-02-18"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": true
+      }
+    ],
+    "duration_ms": 0.073
+  },
+  {
+    "span_id": "SPAN_00022",
+    "parent": "SPAN_00021",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.550016+00:00",
+    "attributes": {
+      "signal": "novel_category",
+      "event_id": "EVT_000317"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0004",
+        "hypothesis": "new_child_life_event",
+        "weight": 1.5
+      }
+    ],
+    "duration_ms": 0.006
+  },
+  {
+    "span_id": "SPAN_00023",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550054+00:00",
+    "attributes": {
+      "date": "2026-02-19"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.026
+  },
+  {
+    "span_id": "SPAN_00024",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550084+00:00",
+    "attributes": {
+      "date": "2026-02-20"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.054
+  },
+  {
+    "span_id": "SPAN_00025",
+    "parent": "SPAN_00024",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.550101+00:00",
+    "attributes": {
+      "signal": "income_shortfall",
+      "event_id": "EVT_000320"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0005",
+        "hypothesis": "job_loss_or_income_disruption",
+        "weight": 0.55
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0006",
+        "hypothesis": "financial_distress_general",
+        "weight": 0.5
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0007",
+        "hypothesis": "new_child_life_event",
+        "weight": 0.7
+      }
+    ],
+    "duration_ms": 0.01
+  },
+  {
+    "span_id": "SPAN_00026",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550142+00:00",
+    "attributes": {
+      "date": "2026-02-21"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.031
+  },
+  {
+    "span_id": "SPAN_00027",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550176+00:00",
+    "attributes": {
+      "date": "2026-02-22"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.027
+  },
+  {
+    "span_id": "SPAN_00028",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550206+00:00",
+    "attributes": {
+      "date": "2026-02-23"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.028
+  },
+  {
+    "span_id": "SPAN_00029",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550238+00:00",
+    "attributes": {
+      "date": "2026-02-24"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.028
+  },
+  {
+    "span_id": "SPAN_00030",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550269+00:00",
+    "attributes": {
+      "date": "2026-02-25"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.047
+  },
+  {
+    "span_id": "SPAN_00031",
+    "parent": "SPAN_00030",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.550287+00:00",
+    "attributes": {
+      "signal": "novel_category",
+      "event_id": "EVT_000328"
+    },
+    "events": [],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00032",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550319+00:00",
+    "attributes": {
+      "date": "2026-02-26"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.086
+  },
+  {
+    "span_id": "SPAN_00033",
+    "parent": "SPAN_00032",
+    "name": "agent:support",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.550339+00:00",
+    "attributes": {
+      "signal": "support_ticket",
+      "event_id": "EVT_000330"
+    },
+    "events": [
+      {
+        "message": "support_read",
+        "provenance": "deterministic",
+        "sentiment": "neutral",
+        "confirms_own_purchase": true,
+        "signals_hardship": false,
+        "signals_leaving": false
+      },
+      {
+        "message": "explanation_unmatched",
+        "text": "i got an alert about a large techworld purchase. just confirming it's me, i bought a new video baby monitor online."
+      }
+    ],
+    "duration_ms": 0.037
+  },
+  {
+    "span_id": "SPAN_00034",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550409+00:00",
+    "attributes": {
+      "date": "2026-02-27"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.041
+  },
+  {
+    "span_id": "SPAN_00035",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550454+00:00",
+    "attributes": {
+      "date": "2026-02-28"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.031
+  },
+  {
+    "span_id": "SPAN_00036",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550489+00:00",
+    "attributes": {
+      "date": "2026-03-01"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.033
+  },
+  {
+    "span_id": "SPAN_00037",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550525+00:00",
+    "attributes": {
+      "date": "2026-03-02"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.031
+  },
+  {
+    "span_id": "SPAN_00038",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550560+00:00",
+    "attributes": {
+      "date": "2026-03-03"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.041
+  },
+  {
+    "span_id": "SPAN_00039",
+    "parent": "SPAN_00038",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.550574+00:00",
+    "attributes": {
+      "signal": "novel_category",
+      "event_id": "EVT_000341"
+    },
+    "events": [],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00040",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550605+00:00",
+    "attributes": {
+      "date": "2026-03-04"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "low",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.058
+  },
+  {
+    "span_id": "SPAN_00041",
+    "parent": "SPAN_00040",
+    "name": "agent:usage",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.550624+00:00",
+    "attributes": {
+      "signal": "search_intent",
+      "event_id": "EVT_000344"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0008",
+        "hypothesis": "new_child_life_event",
+        "weight": 1.1
+      }
+    ],
+    "duration_ms": 0.007
+  },
+  {
+    "span_id": "SPAN_00042",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550666+00:00",
+    "attributes": {
+      "date": "2026-03-05"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": true
+      }
+    ],
+    "duration_ms": 0.035
+  },
+  {
+    "span_id": "SPAN_00043",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550704+00:00",
+    "attributes": {
+      "date": "2026-03-06"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.062
+  },
+  {
+    "span_id": "SPAN_00044",
+    "parent": "SPAN_00043",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.550721+00:00",
+    "attributes": {
+      "signal": "income_shortfall",
+      "event_id": "EVT_000347"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0010",
+        "hypothesis": "job_loss_or_income_disruption",
+        "weight": 0.55
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0011",
+        "hypothesis": "financial_distress_general",
+        "weight": 0.5
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0012",
+        "hypothesis": "new_child_life_event",
+        "weight": 0.7
+      }
+    ],
+    "duration_ms": 0.009
+  },
+  {
+    "span_id": "SPAN_00045",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550769+00:00",
+    "attributes": {
+      "date": "2026-03-07"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.036
+  },
+  {
+    "span_id": "SPAN_00046",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550808+00:00",
+    "attributes": {
+      "date": "2026-03-08"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.034
+  },
+  {
+    "span_id": "SPAN_00047",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550846+00:00",
+    "attributes": {
+      "date": "2026-03-09"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.038
+  },
+  {
+    "span_id": "SPAN_00048",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550887+00:00",
+    "attributes": {
+      "date": "2026-03-10"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.033
+  },
+  {
+    "span_id": "SPAN_00049",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550925+00:00",
+    "attributes": {
+      "date": "2026-03-11"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.036
+  },
+  {
+    "span_id": "SPAN_00050",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.550965+00:00",
+    "attributes": {
+      "date": "2026-03-12"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.036
+  },
+  {
+    "span_id": "SPAN_00051",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551004+00:00",
+    "attributes": {
+      "date": "2026-03-13"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.036
+  },
+  {
+    "span_id": "SPAN_00052",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551044+00:00",
+    "attributes": {
+      "date": "2026-03-14"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.04
+  },
+  {
+    "span_id": "SPAN_00053",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551087+00:00",
+    "attributes": {
+      "date": "2026-03-15"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.031
+  },
+  {
+    "span_id": "SPAN_00054",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551121+00:00",
+    "attributes": {
+      "date": "2026-03-16"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.034
+  },
+  {
+    "span_id": "SPAN_00055",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551158+00:00",
+    "attributes": {
+      "date": "2026-03-17"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.036
+  },
+  {
+    "span_id": "SPAN_00056",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551197+00:00",
+    "attributes": {
+      "date": "2026-03-18"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.058
+  },
+  {
+    "span_id": "SPAN_00057",
+    "parent": "SPAN_00056",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551212+00:00",
+    "attributes": {
+      "signal": "new_obligation",
+      "event_id": "EVT_000363"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0013",
+        "hypothesis": "new_child_life_event",
+        "weight": 2.5
+      }
+    ],
+    "duration_ms": 0.006
+  },
+  {
+    "span_id": "SPAN_00058",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551259+00:00",
+    "attributes": {
+      "date": "2026-03-19"
+    },
+    "events": [
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "medium",
+        "action": "no_action",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.039
+  },
+  {
+    "span_id": "SPAN_00059",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551302+00:00",
+    "attributes": {
+      "date": "2026-03-20"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": true
+      }
+    ],
+    "duration_ms": 0.087
+  },
+  {
+    "span_id": "SPAN_00060",
+    "parent": "SPAN_00059",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551317+00:00",
+    "attributes": {
+      "signal": "income_shortfall",
+      "event_id": "EVT_000365"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0015",
+        "hypothesis": "job_loss_or_income_disruption",
+        "weight": 0.55
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0016",
+        "hypothesis": "financial_distress_general",
+        "weight": 0.5
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0017",
+        "hypothesis": "new_child_life_event",
+        "weight": 0.7
+      }
+    ],
+    "duration_ms": 0.01
+  },
+  {
+    "span_id": "SPAN_00061",
+    "parent": "SPAN_00059",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551373+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.006
+  },
+  {
+    "span_id": "SPAN_00062",
+    "parent": "SPAN_00059",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551382+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00063",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551392+00:00",
+    "attributes": {
+      "date": "2026-03-21"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.059
+  },
+  {
+    "span_id": "SPAN_00064",
+    "parent": "SPAN_00063",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551438+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00065",
+    "parent": "SPAN_00063",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551445+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00066",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551454+00:00",
+    "attributes": {
+      "date": "2026-03-22"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.057
+  },
+  {
+    "span_id": "SPAN_00067",
+    "parent": "SPAN_00066",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551499+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00068",
+    "parent": "SPAN_00066",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551506+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00069",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551515+00:00",
+    "attributes": {
+      "date": "2026-03-23"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.052
+  },
+  {
+    "span_id": "SPAN_00070",
+    "parent": "SPAN_00069",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551556+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00071",
+    "parent": "SPAN_00069",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551562+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00072",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551571+00:00",
+    "attributes": {
+      "date": "2026-03-24"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 5
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.049
+  },
+  {
+    "span_id": "SPAN_00073",
+    "parent": "SPAN_00072",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551608+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00074",
+    "parent": "SPAN_00072",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551615+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00075",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551623+00:00",
+    "attributes": {
+      "date": "2026-03-25"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.085
+  },
+  {
+    "span_id": "SPAN_00076",
+    "parent": "SPAN_00075",
+    "name": "agent:kyc",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551640+00:00",
+    "attributes": {
+      "signal": "kyc_change",
+      "event_id": "EVT_000373"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0018",
+        "hypothesis": "new_child_life_event",
+        "weight": 2.6
+      }
+    ],
+    "duration_ms": 0.006
+  },
+  {
+    "span_id": "SPAN_00077",
+    "parent": "SPAN_00075",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551695+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00078",
+    "parent": "SPAN_00075",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551702+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00079",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551711+00:00",
+    "attributes": {
+      "date": "2026-03-26"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.057
+  },
+  {
+    "span_id": "SPAN_00080",
+    "parent": "SPAN_00079",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551756+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00081",
+    "parent": "SPAN_00079",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551762+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00082",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551771+00:00",
+    "attributes": {
+      "date": "2026-03-27"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.056
+  },
+  {
+    "span_id": "SPAN_00083",
+    "parent": "SPAN_00082",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551815+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00084",
+    "parent": "SPAN_00082",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551822+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00085",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551830+00:00",
+    "attributes": {
+      "date": "2026-03-28"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.054
+  },
+  {
+    "span_id": "SPAN_00086",
+    "parent": "SPAN_00085",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551873+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00087",
+    "parent": "SPAN_00085",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551879+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00088",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551887+00:00",
+    "attributes": {
+      "date": "2026-03-29"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.054
+  },
+  {
+    "span_id": "SPAN_00089",
+    "parent": "SPAN_00088",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551931+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00090",
+    "parent": "SPAN_00088",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551937+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00091",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.551946+00:00",
+    "attributes": {
+      "date": "2026-03-30"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.056
+  },
+  {
+    "span_id": "SPAN_00092",
+    "parent": "SPAN_00091",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551990+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00093",
+    "parent": "SPAN_00091",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.551997+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00094",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552005+00:00",
+    "attributes": {
+      "date": "2026-03-31"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.062
+  },
+  {
+    "span_id": "SPAN_00095",
+    "parent": "SPAN_00094",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552054+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00096",
+    "parent": "SPAN_00094",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552061+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00097",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552070+00:00",
+    "attributes": {
+      "date": "2026-04-01"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.065
+  },
+  {
+    "span_id": "SPAN_00098",
+    "parent": "SPAN_00097",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552123+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00099",
+    "parent": "SPAN_00097",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552130+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00100",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552138+00:00",
+    "attributes": {
+      "date": "2026-04-02"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.058
+  },
+  {
+    "span_id": "SPAN_00101",
+    "parent": "SPAN_00100",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552185+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00102",
+    "parent": "SPAN_00100",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552191+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00103",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552200+00:00",
+    "attributes": {
+      "date": "2026-04-03"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.09
+  },
+  {
+    "span_id": "SPAN_00104",
+    "parent": "SPAN_00103",
+    "name": "agent:transaction",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552215+00:00",
+    "attributes": {
+      "signal": "income_shortfall",
+      "event_id": "EVT_000386"
+    },
+    "events": [
+      {
+        "message": "assertion",
+        "assertion_id": "A0020",
+        "hypothesis": "job_loss_or_income_disruption",
+        "weight": 0.55
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0021",
+        "hypothesis": "financial_distress_general",
+        "weight": 0.5
+      },
+      {
+        "message": "assertion",
+        "assertion_id": "A0022",
+        "hypothesis": "new_child_life_event",
+        "weight": 0.7
+      }
+    ],
+    "duration_ms": 0.01
+  },
+  {
+    "span_id": "SPAN_00105",
+    "parent": "SPAN_00103",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552277+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00106",
+    "parent": "SPAN_00103",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552284+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00107",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552293+00:00",
+    "attributes": {
+      "date": "2026-04-04"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.086
+  },
+  {
+    "span_id": "SPAN_00108",
+    "parent": "SPAN_00107",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552366+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00109",
+    "parent": "SPAN_00107",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552373+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00110",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552382+00:00",
+    "attributes": {
+      "date": "2026-04-05"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.063
+  },
+  {
+    "span_id": "SPAN_00111",
+    "parent": "SPAN_00110",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552433+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00112",
+    "parent": "SPAN_00110",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552440+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00113",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552449+00:00",
+    "attributes": {
+      "date": "2026-04-06"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.061
+  },
+  {
+    "span_id": "SPAN_00114",
+    "parent": "SPAN_00113",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552498+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00115",
+    "parent": "SPAN_00113",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552505+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00116",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552514+00:00",
+    "attributes": {
+      "date": "2026-04-07"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.059
+  },
+  {
+    "span_id": "SPAN_00117",
+    "parent": "SPAN_00116",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552562+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00118",
+    "parent": "SPAN_00116",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552568+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00119",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552576+00:00",
+    "attributes": {
+      "date": "2026-04-08"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.06
+  },
+  {
+    "span_id": "SPAN_00120",
+    "parent": "SPAN_00119",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552625+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00121",
+    "parent": "SPAN_00119",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552631+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00122",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552639+00:00",
+    "attributes": {
+      "date": "2026-04-09"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.064
+  },
+  {
+    "span_id": "SPAN_00123",
+    "parent": "SPAN_00122",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552692+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00124",
+    "parent": "SPAN_00122",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552698+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00125",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552707+00:00",
+    "attributes": {
+      "date": "2026-04-10"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.062
+  },
+  {
+    "span_id": "SPAN_00126",
+    "parent": "SPAN_00125",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552757+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00127",
+    "parent": "SPAN_00125",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552763+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00128",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552772+00:00",
+    "attributes": {
+      "date": "2026-04-11"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.061
+  },
+  {
+    "span_id": "SPAN_00129",
+    "parent": "SPAN_00128",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552822+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00130",
+    "parent": "SPAN_00128",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552828+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00131",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552836+00:00",
+    "attributes": {
+      "date": "2026-04-12"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.059
+  },
+  {
+    "span_id": "SPAN_00132",
+    "parent": "SPAN_00131",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552884+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00133",
+    "parent": "SPAN_00131",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552890+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00134",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552899+00:00",
+    "attributes": {
+      "date": "2026-04-13"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.062
+  },
+  {
+    "span_id": "SPAN_00135",
+    "parent": "SPAN_00134",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552950+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.003
+  },
+  {
+    "span_id": "SPAN_00136",
+    "parent": "SPAN_00134",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.552956+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  },
+  {
+    "span_id": "SPAN_00137",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.552964+00:00",
+    "attributes": {
+      "date": "2026-04-14"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.062
+  },
+  {
+    "span_id": "SPAN_00138",
+    "parent": "SPAN_00137",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.553015+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00139",
+    "parent": "SPAN_00137",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.553021+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.002
+  },
+  {
+    "span_id": "SPAN_00140",
+    "parent": null,
+    "name": "day",
+    "kind": "tick",
+    "start": "2026-09-18T06:05:22.553030+00:00",
+    "attributes": {
+      "date": "2026-04-15"
+    },
+    "events": [
+      {
+        "message": "hitl_queued",
+        "state": "new_child_life_event",
+        "action": "personalized_offer",
+        "evidence_rows": 6
+      },
+      {
+        "message": "checkpoint",
+        "state": "new_child_life_event",
+        "band": "high",
+        "action": "personalized_offer",
+        "changed": false
+      }
+    ],
+    "duration_ms": 0.061
+  },
+  {
+    "span_id": "SPAN_00141",
+    "parent": "SPAN_00140",
+    "name": "agent:action",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.553080+00:00",
+    "attributes": {},
+    "events": [
+      {
+        "message": "draft",
+        "provenance": "deterministic"
+      }
+    ],
+    "duration_ms": 0.004
+  },
+  {
+    "span_id": "SPAN_00142",
+    "parent": "SPAN_00140",
+    "name": "agent:critique",
+    "kind": "agent",
+    "start": "2026-09-18T06:05:22.553086+00:00",
+    "attributes": {},
+    "events": [],
+    "duration_ms": 0.001
+  }
+]

@@ -1,0 +1,3187 @@
+[
+  {
+    "as_of_time": "2026-02-01T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00002"
+  },
+  {
+    "as_of_time": "2026-02-02T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00003"
+  },
+  {
+    "as_of_time": "2026-02-03T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00004"
+  },
+  {
+    "as_of_time": "2026-02-04T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00005"
+  },
+  {
+    "as_of_time": "2026-02-05T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00007"
+  },
+  {
+    "as_of_time": "2026-02-06T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -0.302,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00008"
+  },
+  {
+    "as_of_time": "2026-02-07T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -0.304,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00010"
+  },
+  {
+    "as_of_time": "2026-02-08T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -0.307,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00011"
+  },
+  {
+    "as_of_time": "2026-02-09T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -0.31,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00012"
+  },
+  {
+    "as_of_time": "2026-02-10T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -0.312,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00013"
+  },
+  {
+    "as_of_time": "2026-02-11T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -0.315,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00014"
+  },
+  {
+    "as_of_time": "2026-02-12T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -0.318,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00015"
+  },
+  {
+    "as_of_time": "2026-02-13T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -0.32,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00016"
+  },
+  {
+    "as_of_time": "2026-02-14T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -0.323,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00017"
+  },
+  {
+    "as_of_time": "2026-02-15T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -0.326,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00018"
+  },
+  {
+    "as_of_time": "2026-02-16T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -0.328,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00019"
+  },
+  {
+    "as_of_time": "2026-02-17T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -0.331,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00020"
+  },
+  {
+    "as_of_time": "2026-02-18T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.165,
+    "evidence": [
+      {
+        "contribution": 1.499,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.667,
+        "observed_at": "2026-02-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000301"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00021"
+  },
+  {
+    "as_of_time": "2026-02-19T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.159,
+    "evidence": [
+      {
+        "contribution": 1.495,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.664,
+        "observed_at": "2026-02-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000301"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00023"
+  },
+  {
+    "as_of_time": "2026-02-20T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.521,
+    "evidence": [
+      {
+        "contribution": 1.492,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.698,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00024"
+  },
+  {
+    "as_of_time": "2026-02-21T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.513,
+    "evidence": [
+      {
+        "contribution": 1.488,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.696,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00026"
+  },
+  {
+    "as_of_time": "2026-02-22T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.506,
+    "evidence": [
+      {
+        "contribution": 1.485,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.693,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00027"
+  },
+  {
+    "as_of_time": "2026-02-23T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.499,
+    "evidence": [
+      {
+        "contribution": 1.481,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.69,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00028"
+  },
+  {
+    "as_of_time": "2026-02-24T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.491,
+    "evidence": [
+      {
+        "contribution": 1.478,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.688,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00029"
+  },
+  {
+    "as_of_time": "2026-02-25T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.484,
+    "evidence": [
+      {
+        "contribution": 1.475,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.685,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00030"
+  },
+  {
+    "as_of_time": "2026-02-26T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.477,
+    "evidence": [
+      {
+        "contribution": 1.471,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.682,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00032"
+  },
+  {
+    "as_of_time": "2026-02-27T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.469,
+    "evidence": [
+      {
+        "contribution": 1.468,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.68,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00034"
+  },
+  {
+    "as_of_time": "2026-02-28T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.462,
+    "evidence": [
+      {
+        "contribution": 1.464,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.677,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00035"
+  },
+  {
+    "as_of_time": "2026-03-01T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.455,
+    "evidence": [
+      {
+        "contribution": 1.461,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.674,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00036"
+  },
+  {
+    "as_of_time": "2026-03-02T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.448,
+    "evidence": [
+      {
+        "contribution": 1.458,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.672,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00037"
+  },
+  {
+    "as_of_time": "2026-03-03T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.441,
+    "evidence": [
+      {
+        "contribution": 1.454,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.669,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00038"
+  },
+  {
+    "as_of_time": "2026-03-04T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 2.533,
+    "evidence": [
+      {
+        "contribution": 1.451,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.099,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.667,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00040"
+  },
+  {
+    "as_of_time": "2026-03-05T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.118,
+    "evidence": [
+      {
+        "contribution": 1.448,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.096,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.664,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000320"
+        ]
+      },
+      {
+        "contribution": 0.597,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00042"
+  },
+  {
+    "as_of_time": "2026-03-06T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.367,
+    "evidence": [
+      {
+        "contribution": 1.444,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.092,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.698,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.593,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00043"
+  },
+  {
+    "as_of_time": "2026-03-07T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.352,
+    "evidence": [
+      {
+        "contribution": 1.441,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.088,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.696,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.59,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00045"
+  },
+  {
+    "as_of_time": "2026-03-08T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.337,
+    "evidence": [
+      {
+        "contribution": 1.438,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.084,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.693,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.586,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00046"
+  },
+  {
+    "as_of_time": "2026-03-09T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.321,
+    "evidence": [
+      {
+        "contribution": 1.434,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.081,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.69,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.583,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00047"
+  },
+  {
+    "as_of_time": "2026-03-10T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.306,
+    "evidence": [
+      {
+        "contribution": 1.431,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.077,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.688,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.58,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00048"
+  },
+  {
+    "as_of_time": "2026-03-11T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.291,
+    "evidence": [
+      {
+        "contribution": 1.428,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.073,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.685,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.576,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00049"
+  },
+  {
+    "as_of_time": "2026-03-12T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.276,
+    "evidence": [
+      {
+        "contribution": 1.424,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.069,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.682,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.573,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00050"
+  },
+  {
+    "as_of_time": "2026-03-13T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.261,
+    "evidence": [
+      {
+        "contribution": 1.421,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.066,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.68,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.57,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00051"
+  },
+  {
+    "as_of_time": "2026-03-14T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.246,
+    "evidence": [
+      {
+        "contribution": 1.418,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.062,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.677,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.566,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00052"
+  },
+  {
+    "as_of_time": "2026-03-15T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.232,
+    "evidence": [
+      {
+        "contribution": 1.414,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.058,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.674,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.563,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00053"
+  },
+  {
+    "as_of_time": "2026-03-16T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.217,
+    "evidence": [
+      {
+        "contribution": 1.411,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.055,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.672,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.56,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00054"
+  },
+  {
+    "as_of_time": "2026-03-17T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: first-ever 'baby_products' against 228 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.202,
+    "evidence": [
+      {
+        "contribution": 1.408,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.051,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.669,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.557,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00055"
+  },
+  {
+    "as_of_time": "2026-03-18T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: new recurring commitment 'daycare_payment' not in baseline. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 5.685,
+    "evidence": [
+      {
+        "contribution": 2.497,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.405,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.047,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.667,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.553,
+        "observed_at": "2026-03-05",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00056"
+  },
+  {
+    "as_of_time": "2026-03-19T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "new child life event: new recurring commitment 'daycare_payment' not in baseline. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 5.987,
+    "evidence": [
+      {
+        "contribution": 2.493,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.401,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.044,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.664,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000347"
+        ]
+      },
+      {
+        "contribution": 0.597,
+        "observed_at": "2026-03-19",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00058"
+  },
+  {
+    "as_of_time": "2026-03-20T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions. in-app search: 'child education savings plan'.",
+    "posterior": 6.18,
+    "evidence": [
+      {
+        "contribution": 2.489,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.398,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.04,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.698,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      },
+      {
+        "contribution": 0.593,
+        "observed_at": "2026-03-19",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00059"
+  },
+  {
+    "as_of_time": "2026-03-21T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions. in-app search: 'child education savings plan'.",
+    "posterior": 6.159,
+    "evidence": [
+      {
+        "contribution": 2.485,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.395,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.037,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.696,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      },
+      {
+        "contribution": 0.59,
+        "observed_at": "2026-03-19",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00063"
+  },
+  {
+    "as_of_time": "2026-03-22T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions. in-app search: 'child education savings plan'.",
+    "posterior": 6.137,
+    "evidence": [
+      {
+        "contribution": 2.48,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.392,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.033,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.693,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      },
+      {
+        "contribution": 0.586,
+        "observed_at": "2026-03-19",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00066"
+  },
+  {
+    "as_of_time": "2026-03-23T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions. in-app search: 'child education savings plan'.",
+    "posterior": 6.116,
+    "evidence": [
+      {
+        "contribution": 2.476,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.389,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.029,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.69,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      },
+      {
+        "contribution": 0.583,
+        "observed_at": "2026-03-19",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00069"
+  },
+  {
+    "as_of_time": "2026-03-24T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions. in-app search: 'child education savings plan'.",
+    "posterior": 6.095,
+    "evidence": [
+      {
+        "contribution": 2.472,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.385,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.026,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.688,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      },
+      {
+        "contribution": 0.58,
+        "observed_at": "2026-03-19",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00072"
+  },
+  {
+    "as_of_time": "2026-03-25T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 8.673,
+    "evidence": [
+      {
+        "contribution": 2.599,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.467,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.382,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.022,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.685,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      },
+      {
+        "contribution": 0.576,
+        "observed_at": "2026-03-19",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00075"
+  },
+  {
+    "as_of_time": "2026-03-26T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.17,
+    "evidence": [
+      {
+        "contribution": 2.597,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.463,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.379,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.019,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.895,
+        "observed_at": "2026-03-26",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.682,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00079"
+  },
+  {
+    "as_of_time": "2026-03-27T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.144,
+    "evidence": [
+      {
+        "contribution": 2.595,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.459,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.376,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.015,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.89,
+        "observed_at": "2026-03-26",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.68,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00082"
+  },
+  {
+    "as_of_time": "2026-03-28T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.118,
+    "evidence": [
+      {
+        "contribution": 2.593,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.455,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.373,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.012,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.885,
+        "observed_at": "2026-03-26",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.677,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00085"
+  },
+  {
+    "as_of_time": "2026-03-29T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.092,
+    "evidence": [
+      {
+        "contribution": 2.591,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.45,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.369,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.008,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.879,
+        "observed_at": "2026-03-26",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.674,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00088"
+  },
+  {
+    "as_of_time": "2026-03-30T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.067,
+    "evidence": [
+      {
+        "contribution": 2.589,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.446,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.366,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.005,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.874,
+        "observed_at": "2026-03-26",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.672,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00091"
+  },
+  {
+    "as_of_time": "2026-03-31T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.041,
+    "evidence": [
+      {
+        "contribution": 2.587,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.442,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.363,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 1.001,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.869,
+        "observed_at": "2026-03-26",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.669,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00094"
+  },
+  {
+    "as_of_time": "2026-04-01T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.015,
+    "evidence": [
+      {
+        "contribution": 2.585,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.438,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.36,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.998,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.864,
+        "observed_at": "2026-03-26",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.667,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00097"
+  },
+  {
+    "as_of_time": "2026-04-02T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 8.99,
+    "evidence": [
+      {
+        "contribution": 2.583,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.433,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.357,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.994,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.859,
+        "observed_at": "2026-03-26",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.664,
+        "observed_at": "2026-03-20",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000365"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00100"
+  },
+  {
+    "as_of_time": "2026-04-03T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.15,
+    "evidence": [
+      {
+        "contribution": 2.581,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.429,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.354,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.991,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.854,
+        "observed_at": "2026-03-26",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.698,
+        "observed_at": "2026-04-03",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000386"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00103"
+  },
+  {
+    "as_of_time": "2026-04-04T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.462,
+    "evidence": [
+      {
+        "contribution": 2.579,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.425,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.351,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.987,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.895,
+        "observed_at": "2026-04-04",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.696,
+        "observed_at": "2026-04-03",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000386"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00107"
+  },
+  {
+    "as_of_time": "2026-04-05T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.434,
+    "evidence": [
+      {
+        "contribution": 2.577,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.421,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.348,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.984,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.89,
+        "observed_at": "2026-04-04",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.693,
+        "observed_at": "2026-04-03",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000386"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00110"
+  },
+  {
+    "as_of_time": "2026-04-06T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.406,
+    "evidence": [
+      {
+        "contribution": 2.575,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.417,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.344,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.981,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.885,
+        "observed_at": "2026-04-04",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.69,
+        "observed_at": "2026-04-03",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000386"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00113"
+  },
+  {
+    "as_of_time": "2026-04-07T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.378,
+    "evidence": [
+      {
+        "contribution": 2.573,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.412,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.341,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.977,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.879,
+        "observed_at": "2026-04-04",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.688,
+        "observed_at": "2026-04-03",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000386"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00116"
+  },
+  {
+    "as_of_time": "2026-04-08T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.351,
+    "evidence": [
+      {
+        "contribution": 2.571,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.408,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.338,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.974,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.874,
+        "observed_at": "2026-04-04",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.685,
+        "observed_at": "2026-04-03",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000386"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00119"
+  },
+  {
+    "as_of_time": "2026-04-09T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.324,
+    "evidence": [
+      {
+        "contribution": 2.569,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.404,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.335,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.97,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.869,
+        "observed_at": "2026-04-04",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.682,
+        "observed_at": "2026-04-03",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000386"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00122"
+  },
+  {
+    "as_of_time": "2026-04-10T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.296,
+    "evidence": [
+      {
+        "contribution": 2.567,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.4,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.332,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.967,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.864,
+        "observed_at": "2026-04-04",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.68,
+        "observed_at": "2026-04-03",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000386"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00125"
+  },
+  {
+    "as_of_time": "2026-04-11T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.269,
+    "evidence": [
+      {
+        "contribution": 2.565,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.396,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.329,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.964,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.859,
+        "observed_at": "2026-04-04",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.677,
+        "observed_at": "2026-04-03",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000386"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00128"
+  },
+  {
+    "as_of_time": "2026-04-12T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.242,
+    "evidence": [
+      {
+        "contribution": 2.563,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.392,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.326,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.96,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.854,
+        "observed_at": "2026-04-04",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.674,
+        "observed_at": "2026-04-03",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000386"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00131"
+  },
+  {
+    "as_of_time": "2026-04-13T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.215,
+    "evidence": [
+      {
+        "contribution": 2.561,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.387,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.323,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.957,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.849,
+        "observed_at": "2026-04-04",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.672,
+        "observed_at": "2026-04-03",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000386"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00134"
+  },
+  {
+    "as_of_time": "2026-04-14T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.188,
+    "evidence": [
+      {
+        "contribution": 2.559,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.383,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.32,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.954,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.845,
+        "observed_at": "2026-04-04",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.669,
+        "observed_at": "2026-04-03",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000386"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00137"
+  },
+  {
+    "as_of_time": "2026-04-15T23:59:59Z",
+    "inferred_state": "new_child_life_event",
+    "confidence_band": "high",
+    "action": "personalized_offer",
+    "action_subtype": "childcare_savings_or_insurance_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing personalized offer (childcare_savings_or_insurance_plan). dependents_change: 1 -> 2. new recurring commitment 'daycare_payment' not in baseline. first-ever 'baby_products' against 228 historical card transactions.",
+    "posterior": 9.161,
+    "evidence": [
+      {
+        "contribution": 2.557,
+        "observed_at": "2026-03-25",
+        "agent": "kyc",
+        "why": "dependents_change: 1 -> 2",
+        "cites": [
+          "EVT_000373"
+        ]
+      },
+      {
+        "contribution": 2.379,
+        "observed_at": "2026-03-18",
+        "agent": "transaction",
+        "why": "new recurring commitment 'daycare_payment' not in baseline",
+        "cites": [
+          "EVT_000363"
+        ]
+      },
+      {
+        "contribution": 1.317,
+        "observed_at": "2026-02-18",
+        "agent": "transaction",
+        "why": "first-ever 'baby_products' against 228 historical card transactions",
+        "cites": [
+          "EVT_000317"
+        ]
+      },
+      {
+        "contribution": 0.95,
+        "observed_at": "2026-03-04",
+        "agent": "usage",
+        "why": "in-app search: 'child education savings plan'",
+        "cites": [
+          "EVT_000344"
+        ]
+      },
+      {
+        "contribution": 0.84,
+        "observed_at": "2026-04-04",
+        "agent": "correlation",
+        "why": "3 independent agents (kyc, transaction, usage) point at this within 45 days",
+        "cites": []
+      },
+      {
+        "contribution": 0.667,
+        "observed_at": "2026-04-03",
+        "agent": "transaction",
+        "why": "income arrived at 60% of the $4500 baseline",
+        "cites": [
+          "EVT_000386"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00140"
+  }
+]

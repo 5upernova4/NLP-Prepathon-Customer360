@@ -1,0 +1,3317 @@
+[
+  {
+    "as_of_time": "2026-02-01T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00002"
+  },
+  {
+    "as_of_time": "2026-02-02T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00003"
+  },
+  {
+    "as_of_time": "2026-02-03T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00004"
+  },
+  {
+    "as_of_time": "2026-02-04T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00005"
+  },
+  {
+    "as_of_time": "2026-02-05T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00007"
+  },
+  {
+    "as_of_time": "2026-02-06T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00008"
+  },
+  {
+    "as_of_time": "2026-02-07T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00009"
+  },
+  {
+    "as_of_time": "2026-02-08T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00010"
+  },
+  {
+    "as_of_time": "2026-02-09T23:59:59Z",
+    "inferred_state": "no_significant_event",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "Nothing in the stream crosses a threshold worth acting on.",
+    "posterior": -1.0,
+    "evidence": [],
+    "revision_of": null,
+    "trace_id": "SPAN_00011"
+  },
+  {
+    "as_of_time": "2026-02-10T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: first-ever 'healthcare' against 229 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 0.973,
+    "evidence": [
+      {
+        "contribution": 1.3,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.674,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00012"
+  },
+  {
+    "as_of_time": "2026-02-11T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: first-ever 'healthcare' against 229 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 0.967,
+    "evidence": [
+      {
+        "contribution": 1.295,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.672,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00015"
+  },
+  {
+    "as_of_time": "2026-02-12T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: first-ever 'healthcare' against 229 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.409,
+    "evidence": [
+      {
+        "contribution": 1.291,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.669,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00016"
+  },
+  {
+    "as_of_time": "2026-02-13T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: first-ever 'healthcare' against 229 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.401,
+    "evidence": [
+      {
+        "contribution": 1.286,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.667,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00018"
+  },
+  {
+    "as_of_time": "2026-02-14T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: first-ever 'healthcare' against 229 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.392,
+    "evidence": [
+      {
+        "contribution": 1.282,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.665,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00019"
+  },
+  {
+    "as_of_time": "2026-02-15T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: first-ever 'healthcare' against 229 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.384,
+    "evidence": [
+      {
+        "contribution": 1.277,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.663,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00020"
+  },
+  {
+    "as_of_time": "2026-02-16T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: first-ever 'healthcare' against 229 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.375,
+    "evidence": [
+      {
+        "contribution": 1.273,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.661,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00021"
+  },
+  {
+    "as_of_time": "2026-02-17T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: first-ever 'healthcare' against 229 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.367,
+    "evidence": [
+      {
+        "contribution": 1.269,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.659,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00022"
+  },
+  {
+    "as_of_time": "2026-02-18T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: first-ever 'healthcare' against 229 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.358,
+    "evidence": [
+      {
+        "contribution": 1.264,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.657,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00023"
+  },
+  {
+    "as_of_time": "2026-02-19T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: first-ever 'healthcare' against 229 historical card transactions. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 1.35,
+    "evidence": [
+      {
+        "contribution": 1.26,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.655,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00025"
+  },
+  {
+    "as_of_time": "2026-02-20T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 2.917,
+    "evidence": [
+      {
+        "contribution": 1.576,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.255,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.653,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00026"
+  },
+  {
+    "as_of_time": "2026-02-21T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 2.903,
+    "evidence": [
+      {
+        "contribution": 1.571,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.251,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.651,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00028"
+  },
+  {
+    "as_of_time": "2026-02-22T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 2.89,
+    "evidence": [
+      {
+        "contribution": 1.566,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.247,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.649,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00029"
+  },
+  {
+    "as_of_time": "2026-02-23T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 2.877,
+    "evidence": [
+      {
+        "contribution": 1.561,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.243,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.647,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00030"
+  },
+  {
+    "as_of_time": "2026-02-24T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 2.864,
+    "evidence": [
+      {
+        "contribution": 1.556,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.238,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.645,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00031"
+  },
+  {
+    "as_of_time": "2026-02-25T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 2.851,
+    "evidence": [
+      {
+        "contribution": 1.551,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.234,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.643,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00033"
+  },
+  {
+    "as_of_time": "2026-02-26T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 2.837,
+    "evidence": [
+      {
+        "contribution": 1.546,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.23,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.641,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00034"
+  },
+  {
+    "as_of_time": "2026-02-27T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 2.824,
+    "evidence": [
+      {
+        "contribution": 1.541,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.225,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.639,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00035"
+  },
+  {
+    "as_of_time": "2026-02-28T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 2.811,
+    "evidence": [
+      {
+        "contribution": 1.536,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.221,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.637,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00036"
+  },
+  {
+    "as_of_time": "2026-03-01T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 2.798,
+    "evidence": [
+      {
+        "contribution": 1.532,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.217,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.635,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00037"
+  },
+  {
+    "as_of_time": "2026-03-02T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "low",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 2.785,
+    "evidence": [
+      {
+        "contribution": 1.527,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.213,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 229 historical card transactions",
+        "cites": [
+          "EVT_000392"
+        ]
+      },
+      {
+        "contribution": 0.633,
+        "observed_at": "2026-02-10",
+        "agent": "transaction",
+        "why": "$500 of healthcare spend, 8x this customer's typical card transaction",
+        "cites": [
+          "EVT_000392"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00038"
+  },
+  {
+    "as_of_time": "2026-03-03T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.658,
+    "evidence": [
+      {
+        "contribution": 1.522,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.288,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 246 historical card transactions",
+        "cites": [
+          "EVT_000420"
+        ]
+      },
+      {
+        "contribution": 0.654,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "$450 of healthcare spend, 7x this customer's typical card transaction",
+        "cites": [
+          "EVT_000420"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00039"
+  },
+  {
+    "as_of_time": "2026-03-04T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.642,
+    "evidence": [
+      {
+        "contribution": 1.517,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.284,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 246 historical card transactions",
+        "cites": [
+          "EVT_000420"
+        ]
+      },
+      {
+        "contribution": 0.651,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "$450 of healthcare spend, 7x this customer's typical card transaction",
+        "cites": [
+          "EVT_000420"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00042"
+  },
+  {
+    "as_of_time": "2026-03-05T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 3.626,
+    "evidence": [
+      {
+        "contribution": 1.512,
+        "observed_at": "2026-02-20",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000406"
+        ]
+      },
+      {
+        "contribution": 1.279,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 246 historical card transactions",
+        "cites": [
+          "EVT_000420"
+        ]
+      },
+      {
+        "contribution": 0.649,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "$450 of healthcare spend, 7x this customer's typical card transaction",
+        "cites": [
+          "EVT_000420"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00043"
+  },
+  {
+    "as_of_time": "2026-03-06T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 4.433,
+    "evidence": [
+      {
+        "contribution": 1.576,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.275,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 246 historical card transactions",
+        "cites": [
+          "EVT_000420"
+        ]
+      },
+      {
+        "contribution": 0.647,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "$450 of healthcare spend, 7x this customer's typical card transaction",
+        "cites": [
+          "EVT_000420"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00044"
+  },
+  {
+    "as_of_time": "2026-03-07T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 4.414,
+    "evidence": [
+      {
+        "contribution": 1.571,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.27,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 246 historical card transactions",
+        "cites": [
+          "EVT_000420"
+        ]
+      },
+      {
+        "contribution": 0.645,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "$450 of healthcare spend, 7x this customer's typical card transaction",
+        "cites": [
+          "EVT_000420"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00046"
+  },
+  {
+    "as_of_time": "2026-03-08T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 4.396,
+    "evidence": [
+      {
+        "contribution": 1.566,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.266,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 246 historical card transactions",
+        "cites": [
+          "EVT_000420"
+        ]
+      },
+      {
+        "contribution": 0.643,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "$450 of healthcare spend, 7x this customer's typical card transaction",
+        "cites": [
+          "EVT_000420"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00047"
+  },
+  {
+    "as_of_time": "2026-03-09T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 4.379,
+    "evidence": [
+      {
+        "contribution": 1.561,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.262,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 246 historical card transactions",
+        "cites": [
+          "EVT_000420"
+        ]
+      },
+      {
+        "contribution": 0.641,
+        "observed_at": "2026-03-01",
+        "agent": "transaction",
+        "why": "$450 of healthcare spend, 7x this customer's typical card transaction",
+        "cites": [
+          "EVT_000420"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00048"
+  },
+  {
+    "as_of_time": "2026-03-10T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 5.842,
+    "evidence": [
+      {
+        "contribution": 1.556,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.498,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.298,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00049"
+  },
+  {
+    "as_of_time": "2026-03-11T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 5.819,
+    "evidence": [
+      {
+        "contribution": 1.551,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.493,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.293,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00052"
+  },
+  {
+    "as_of_time": "2026-03-12T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 5.797,
+    "evidence": [
+      {
+        "contribution": 1.546,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.488,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.289,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00053"
+  },
+  {
+    "as_of_time": "2026-03-13T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 5.774,
+    "evidence": [
+      {
+        "contribution": 1.541,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.483,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.284,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00054"
+  },
+  {
+    "as_of_time": "2026-03-14T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 5.752,
+    "evidence": [
+      {
+        "contribution": 1.536,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.479,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.28,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00055"
+  },
+  {
+    "as_of_time": "2026-03-15T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 5.73,
+    "evidence": [
+      {
+        "contribution": 1.532,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.474,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.275,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00056"
+  },
+  {
+    "as_of_time": "2026-03-16T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 5.708,
+    "evidence": [
+      {
+        "contribution": 1.527,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.469,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.271,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00058"
+  },
+  {
+    "as_of_time": "2026-03-17T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 5.685,
+    "evidence": [
+      {
+        "contribution": 1.522,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.465,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.267,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00059"
+  },
+  {
+    "as_of_time": "2026-03-18T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 5.663,
+    "evidence": [
+      {
+        "contribution": 1.517,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.46,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.262,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00060"
+  },
+  {
+    "as_of_time": "2026-03-19T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "medium",
+    "action": "no_action",
+    "action_subtype": null,
+    "hitl_status": "auto_approved",
+    "notes": "medical hardship: income arrived at 37% of the $3800 baseline and as a different instrument. Holding - signal is building but not yet strong enough to spend money on.",
+    "posterior": 5.642,
+    "evidence": [
+      {
+        "contribution": 1.512,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.456,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.258,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00061"
+  },
+  {
+    "as_of_time": "2026-03-20T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 6.518,
+    "evidence": [
+      {
+        "contribution": 1.508,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.451,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.253,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.898,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00062"
+  },
+  {
+    "as_of_time": "2026-03-21T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.087,
+    "evidence": [
+      {
+        "contribution": 1.503,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.447,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.249,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.893,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.597,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00066"
+  },
+  {
+    "as_of_time": "2026-03-22T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.057,
+    "evidence": [
+      {
+        "contribution": 1.498,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.442,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.245,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.888,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.593,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00069"
+  },
+  {
+    "as_of_time": "2026-03-23T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.027,
+    "evidence": [
+      {
+        "contribution": 1.493,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.437,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.24,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.883,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.59,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00072"
+  },
+  {
+    "as_of_time": "2026-03-24T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 6.997,
+    "evidence": [
+      {
+        "contribution": 1.489,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.433,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.236,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.878,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.586,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00075"
+  },
+  {
+    "as_of_time": "2026-03-25T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.965,
+    "evidence": [
+      {
+        "contribution": 1.484,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.428,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.232,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.998,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.873,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.583,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00078"
+  },
+  {
+    "as_of_time": "2026-03-26T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.932,
+    "evidence": [
+      {
+        "contribution": 1.479,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.424,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.228,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.995,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.868,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.58,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00082"
+  },
+  {
+    "as_of_time": "2026-03-27T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.899,
+    "evidence": [
+      {
+        "contribution": 1.475,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.419,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.223,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.992,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.863,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.576,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00085"
+  },
+  {
+    "as_of_time": "2026-03-28T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.866,
+    "evidence": [
+      {
+        "contribution": 1.47,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.415,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.219,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.988,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.858,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.573,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00088"
+  },
+  {
+    "as_of_time": "2026-03-29T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.833,
+    "evidence": [
+      {
+        "contribution": 1.465,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.411,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.215,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.985,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.853,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.57,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00091"
+  },
+  {
+    "as_of_time": "2026-03-30T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.8,
+    "evidence": [
+      {
+        "contribution": 1.461,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.406,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.211,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.981,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.848,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.566,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00094"
+  },
+  {
+    "as_of_time": "2026-03-31T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.768,
+    "evidence": [
+      {
+        "contribution": 1.456,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.402,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.207,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.978,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.843,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.563,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00097"
+  },
+  {
+    "as_of_time": "2026-04-01T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.735,
+    "evidence": [
+      {
+        "contribution": 1.452,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.397,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.202,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.975,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.838,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.56,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00100"
+  },
+  {
+    "as_of_time": "2026-04-02T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.703,
+    "evidence": [
+      {
+        "contribution": 1.447,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.393,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.198,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.971,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.833,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.557,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00103"
+  },
+  {
+    "as_of_time": "2026-04-03T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.67,
+    "evidence": [
+      {
+        "contribution": 1.443,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.388,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.194,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.968,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.828,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.553,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00106"
+  },
+  {
+    "as_of_time": "2026-04-04T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.638,
+    "evidence": [
+      {
+        "contribution": 1.438,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.384,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.19,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.964,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.824,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.55,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00109"
+  },
+  {
+    "as_of_time": "2026-04-05T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.606,
+    "evidence": [
+      {
+        "contribution": 1.434,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.38,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.186,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.961,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.819,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.547,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00112"
+  },
+  {
+    "as_of_time": "2026-04-06T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.574,
+    "evidence": [
+      {
+        "contribution": 1.429,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.375,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.182,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.958,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.814,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.544,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00115"
+  },
+  {
+    "as_of_time": "2026-04-07T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.543,
+    "evidence": [
+      {
+        "contribution": 1.425,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.371,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.178,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.954,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.81,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.541,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00118"
+  },
+  {
+    "as_of_time": "2026-04-08T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.511,
+    "evidence": [
+      {
+        "contribution": 1.42,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.367,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.174,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.951,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.805,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.538,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00121"
+  },
+  {
+    "as_of_time": "2026-04-09T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.48,
+    "evidence": [
+      {
+        "contribution": 1.416,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.362,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.17,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.948,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.8,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.535,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00124"
+  },
+  {
+    "as_of_time": "2026-04-10T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.448,
+    "evidence": [
+      {
+        "contribution": 1.411,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.358,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.165,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.945,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.796,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.531,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00127"
+  },
+  {
+    "as_of_time": "2026-04-11T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.417,
+    "evidence": [
+      {
+        "contribution": 1.407,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.354,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.161,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.941,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.791,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.528,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00130"
+  },
+  {
+    "as_of_time": "2026-04-12T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.386,
+    "evidence": [
+      {
+        "contribution": 1.402,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.35,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.157,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.938,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.786,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.525,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00133"
+  },
+  {
+    "as_of_time": "2026-04-13T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.355,
+    "evidence": [
+      {
+        "contribution": 1.398,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.345,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.153,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.935,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.782,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.522,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00136"
+  },
+  {
+    "as_of_time": "2026-04-14T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.324,
+    "evidence": [
+      {
+        "contribution": 1.393,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.341,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.149,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.932,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.777,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.519,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00139"
+  },
+  {
+    "as_of_time": "2026-04-15T23:59:59Z",
+    "inferred_state": "medical_hardship",
+    "confidence_band": "high",
+    "action": "support_intervention",
+    "action_subtype": "medical_hardship_payment_plan",
+    "hitl_status": "escalated",
+    "notes": "Proposing support intervention (medical_hardship_payment_plan). income arrived at 37% of the $3800 baseline and as a different instrument. $8,500 of healthcare spend, 135x this customer's typical card transaction. first-ever 'healthcare' against 253 historical card transactions.",
+    "posterior": 7.293,
+    "evidence": [
+      {
+        "contribution": 1.389,
+        "observed_at": "2026-03-06",
+        "agent": "transaction",
+        "why": "income arrived at 37% of the $3800 baseline and as a different instrument",
+        "cites": [
+          "EVT_000428"
+        ]
+      },
+      {
+        "contribution": 1.337,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "$8,500 of healthcare spend, 135x this customer's typical card transaction",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 1.145,
+        "observed_at": "2026-03-10",
+        "agent": "transaction",
+        "why": "first-ever 'healthcare' against 253 historical card transactions",
+        "cites": [
+          "EVT_000436"
+        ]
+      },
+      {
+        "contribution": 0.928,
+        "observed_at": "2026-03-25",
+        "agent": "support",
+        "why": "the request mentions being in hospital or a drop in income",
+        "cites": [
+          "EVT_000462"
+        ]
+      },
+      {
+        "contribution": 0.773,
+        "observed_at": "2026-03-20",
+        "agent": "usage",
+        "why": "in-app search: 'medical hardship plan'",
+        "cites": [
+          "EVT_000453"
+        ]
+      },
+      {
+        "contribution": 0.516,
+        "observed_at": "2026-03-21",
+        "agent": "correlation",
+        "why": "2 independent agents (transaction, usage) point at this within 45 days",
+        "cites": []
+      }
+    ],
+    "revision_of": null,
+    "trace_id": "SPAN_00142"
+  }
+]
